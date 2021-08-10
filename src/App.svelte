@@ -8,7 +8,7 @@
   <header>
     <h1>"....Do I really have to do this?"</h1>
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src="/img/Tourist_Li_Dailin.png" />
+    <img src="img/Tourist_Li_Dailin.png" />
   </header>
   <main>
     <section>
@@ -83,7 +83,7 @@
         </p>
         <aside>
           <video autoplay loop muted>
-            <source src="/videos/W.mp4" />
+            <source src="videos/W.mp4" />
           </video>
           <small>
             <ol>
@@ -94,7 +94,7 @@
             </ol>
           </small>
           <video autoplay loop muted>
-            <source src="/videos/W2.mp4" />
+            <source src="videos/W2.mp4" />
           </video>
           <p><small>Embriagada durante Wickeline</small></p>
         </aside>
