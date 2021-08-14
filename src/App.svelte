@@ -347,15 +347,6 @@
           para finalizar kills à distância ou para farmar.
         </p>
       </section>
-      <p>
-        <HoverableSkill size={72} key="T" />
-        <HoverableSkill size={72} key="Q" />
-        <HoverableSkill size={72} key="W" />
-        <HoverableSkill size={72} key="E" />
-        <HoverableSkill size={72} key="R" />
-        <HoverableSkill size={72} key="DG" />
-        <HoverableSkill size={72} key="DN" />
-      </p>
     </section>
     <section>
       <h1>Combos</h1>
