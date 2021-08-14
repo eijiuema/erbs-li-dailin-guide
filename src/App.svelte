@@ -2,13 +2,14 @@
   import CopiableText from "./CopiableText.svelte";
   import HoverableSkill from "./skills/HoverableSkill.svelte";
   import Skill from "./skills/Skill.svelte";
+  import Tooltip from "./Tooltip.svelte";
 </script>
 
 <div class="container">
   <header>
     <h1>"....Do I really have to do this?"</h1>
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src="img/Tourist_Li_Dailin.png" />
+    <img src="resources/header/Tourist_Li_Dailin.png" />
   </header>
   <main>
     <section>
@@ -20,10 +21,11 @@
       </p>
       <p>
         Esse guia está longe de completo, e será atualizado sempre que eu tiver
-        tempo. Se encontrar algum erro, tiver algum feedback, dúvida ou
-        sugestão, pode falar comigo no Discord: <CopiableText
-          text="uema#2118"
-        />
+        tempo.
+      </p>
+      <p>
+        Se encontrar algum erro, tiver algum feedback, dúvida ou sugestão, pode
+        falar comigo no Discord: <CopiableText text="uema#2118" />
       </p>
     </section>
     <section>
@@ -67,15 +69,26 @@
       </p>
     </section>
     <section>
-      <h1>Skills</h1>
+      <h1>Habilidades</h1>
       <section>
-        <h2>Passiva</h2>
         <Skill key="T" />
         <p>
           Essa é a principal habilidade da Li Dailin. É o bom aproveitamento
           dela que vai definir quanto de dano você pode causar.
         </p>
-        <p>Se você tiver 40 CAS ou mais, ao usar uma habilidade:</p>
+        <p>
+          Se você tiver
+          <Tooltip>
+            <span slot="hoverable">40 CAS ou mais</span>
+            <span slot="tooltip">
+              Use o traço branco em baixo da sua barra de mana como referência.
+              <br />
+              <br />
+              <!-- svelte-ignore a11y-missing-attribute -->
+              <img src="resources/habilidades/passiva/barra.png" />
+            </span>
+          </Tooltip> ao usar uma habilidade:
+        </p>
         <ol>
           <li>Você consumirá 40 de CAS (exceto W);</li>
           <li>A habilidade vai ganhar um efeito adicional e</li>
@@ -92,7 +105,7 @@
         </p>
         <aside>
           <video autoplay loop muted>
-            <source src="videos/W.mp4" />
+            <source src="resources/habilidades/passiva/ataques.mp4" />
           </video>
           <small>
             <ol>
@@ -103,12 +116,22 @@
             </ol>
           </small>
           <video autoplay loop muted>
-            <source src="videos/W2.mp4" />
+            <source src="resources/habilidades/passiva/silence.mp4" />
           </video>
           <p><small>Embriagada durante Wickeline</small></p>
         </aside>
       </section>
-      <Skill key="Q" />
+      <section>
+        <Skill key="Q" />
+        <p>
+          Essa habilidade é a principal mobilidade da Li Dailin, cada uso dá um
+          dash, e o terceiro dash pode atravessar paredes.
+        </p>
+        <p>
+          Se o primeiro uso foi buffado por alcoolizada, todos os usos seguintes
+          também serão buffados.
+        </p>
+      </section>
       <Skill key="W" />
       <Skill key="E" />
       <Skill key="R" />

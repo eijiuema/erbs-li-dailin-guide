@@ -6,7 +6,7 @@
 </script>
 
 <div class="skill">
-  <Icon src={skill.icon} size={48} />
+  <Icon src={skill.icon} size={48} key={skill.key} />
   <span class="name">{skill.name}</span>
   {#each skill.description as p}
     <p>{p}</p>
@@ -17,11 +17,7 @@
   .skill {
     padding: 1em;
     text-align: left;
-    min-width: 320px;
-    max-width: 100vw;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
-    border-bottom-left-radius: 0;
   }
 
   .name {
