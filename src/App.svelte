@@ -1,4 +1,5 @@
 <script>
+  import Combo from "./Combo.svelte";
   import CopiableText from "./CopiableText.svelte";
   import HoverableSkill from "./skills/HoverableSkill.svelte";
   import Skill from "./skills/Skill.svelte";
@@ -90,9 +91,9 @@
           </Tooltip> ao usar uma habilidade:
         </p>
         <ol>
-          <li>Você consumirá 40 de CAS (exceto W);</li>
-          <li>A habilidade vai ganhar um efeito adicional e</li>
-          <li>Seu próximo ataque normal sairá duas vezes.</li>
+          <li>Você consumirá 40 de CAS (exceto W)</li>
+          <li>A habilidade vai ganhar um efeito adicional</li>
+          <li>Seu próximo ataque normal sairá duas vezes</li>
         </ol>
         <p>
           Obs: o segundo ataque tem dano reduzido, mas aumenta conforme o nível
@@ -152,7 +153,7 @@
             <Tooltip>
               <span slot="hoverable">
                 Se a primeira ativação da habilidade foi buffada por
-                alcoolizada, as duas ativações seguintes também serão;
+                alcoolizada, as duas ativações seguintes também serão
               </span>
               <span slot="tooltip">
                 <video autoplay loop muted>
@@ -161,12 +162,11 @@
               </span>
             </Tooltip>
           </li>
-          <br />
           <li>
             <Tooltip>
               <span slot="hoverable">
                 Nenhuma das ativações atravessa unidades inimigas, isso é,
-                jogadores, animais, Wickeline, etc;
+                jogadores, animais, Wickeline, etc
               </span>
               <span slot="tooltip">
                 <video autoplay loop muted>
@@ -175,11 +175,10 @@
               </span>
             </Tooltip>
           </li>
-          <br />
           <li>
             <Tooltip>
               <span slot="hoverable">
-                Qualquer atordoamento, empurrão ou enraizamento cancela o dash;
+                Qualquer atordoamento, empurrão ou enraizamento cancela o dash
               </span>
               <span slot="tooltip">
                 <video autoplay loop muted>
@@ -197,7 +196,7 @@
           <video autoplay loop muted>
             <source src="resources/habilidades/q/WQ.mp4" />
           </video>
-          <p><small>Q com alcoolizada</small></p>
+          <p><small>Q buffado</small></p>
         </aside>
       </section>
       <section>
@@ -237,10 +236,117 @@
           passiva <HoverableSkill key="T" />.
         </p>
       </section>
-      <Skill key="E" />
-      <Skill key="R" />
-      <Skill key="DG" />
-      <Skill key="DN" />
+      <section>
+        <Skill key="E" />
+        <p>
+          Esse é o famigerado silence da Li Dailin, a habilidade também dá
+          lentidão, mas na maioria das vezes é usada pelo silenciamento.
+        </p>
+        <p>
+          Pra silenciar é necessário usar a skill buffada, e ela tem um tempo de
+          conjuração relativamente alto, então pense bem antes de usa-la pra
+          fugir ou perseguir alguém.
+        </p>
+        <p>
+          O momento ideal pra usar o silenciamento varia muito do momento e da
+          match up, e será abordado mais pra frente no guia.
+        </p>
+        <p>
+          Obs: Nem todo tipo de conjuração é cancelado pelo silence, varia
+          habilidade por habilidade.
+        </p>
+        <aside>
+          <video autoplay loop muted>
+            <source src="resources/habilidades/e/EJavas.mp4" />
+          </video>
+          <p><small>Silence no dash do Javali</small></p>
+          <video autoplay loop muted>
+            <source src="resources/habilidades/e/EAlpha.mp4" />
+          </video>
+          <p><small>Silence no knockback do Alpha</small></p>
+        </aside>
+      </section>
+      <section>
+        <Skill key="R" />
+        <p>
+          A ultimate da Li Dailin é um dash que suprime o alvo por 0.7s (1.2s se
+          alcoolizada).
+        </p>
+        <p>
+          O dano da habilidade aumenta conforme a vida perdida, mas não é
+          baseado na vida máxima do alvo.
+        </p>
+        <p>Observações importantes:</p>
+        <ol>
+          <li>O dash atravessa paredes</li>
+          <li>
+            O cooldown é bem alto (180/150/115s), mas é reduzido em 40% se
+            acertar um alvo
+          </li>
+          <li>
+            <Tooltip>
+              <span slot="hoverable">
+                A Li Dailin fica imparável durante o dash
+              </span>
+              <span slot="tooltip">
+                <video autoplay loop muted>
+                  <source src="resources/habilidades/r/RAlpha2.mp4" />
+                </video>
+              </span>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip>
+              <span slot="hoverable">
+                A Li Dailin não fica imparável durante a supressão
+              </span>
+              <span slot="tooltip">
+                <video autoplay loop muted>
+                  <source src="resources/habilidades/r/RAlpha1.mp4" />
+                </video>
+              </span>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip>
+              <span slot="hoverable"> O hitbox é estranho</span>
+              <span slot="tooltip">
+                <video autoplay loop muted>
+                  <source src="resources/habilidades/r/RAlpha3.mp4" />
+                </video>
+              </span>
+            </Tooltip>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <Skill key="DG" />
+        <p>
+          É uma habilidade target, não interrompível, que funciona como um
+          ataque básico normal, mas com dano aumentado e causa dano verdadeiro
+          adicional.
+        </p>
+        <p>
+          Não existe um momento certo pra usar ela, recomendo usar sempre que
+          sair do cooldown ou para garantir um last hit.
+        </p>
+        <p>
+          Obs: o alcance dessa habilidade é maior que o alcance padrão de ataque
+          básico, então ela dá um pequeno dash.
+        </p>
+      </section>
+      <section>
+        <Skill key="DN" />
+        <p>
+          São bem raras as situações em que é possível carregar o stun e ainda
+          assim acertar o alvo, pois é possível ouvir o Nunchaku sendo carregado
+          de muito longe.
+        </p>
+        <p>
+          Então, no geral é utilizado como um pequeno dano adicional no combo,
+          para finalizar kills à distância ou para farmar.
+        </p>
+      </section>
       <p>
         <HoverableSkill size={72} key="T" />
         <HoverableSkill size={72} key="Q" />
@@ -250,6 +356,46 @@
         <HoverableSkill size={72} key="DG" />
         <HoverableSkill size={72} key="DN" />
       </p>
+    </section>
+    <section>
+      <h1>Combos</h1>
+      <q class="question"
+        >Tá, eu já entendi as habilidades, mas você pode me falar logo como eu
+        combo?</q
+      >
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <img src="resources/combos/Well.jpg" />
+      <p>
+        Como eu falei antes, é o bom aproveitamento da passiva que define quanto
+        dano você pode causar, então não existe um combo certo ou errado, tudo é
+        situacional.
+      </p>
+      <p>Numa situacão perfeita, o combo com o maior dano é aquele que maximiza o uso da passiva, por exemplo: </p>
+      <video style="float: left; margin-right: 1em;" autoplay loop muted>
+        <source src="resources/combos/Combo.mp4" />
+      </video>
+      <Combo
+        size={48}
+        skills={[
+          "W",
+          "W",
+          "DG",
+          "T",
+          "Q",
+          "T",
+          "W",
+          "T",
+          "Q",
+          "T",
+          "Q",
+          "T",
+          "E",
+          "T",
+          "R",
+          "T",
+          "DG",
+        ]}
+      />
     </section>
   </main>
 </div>
@@ -323,6 +469,10 @@
   .center {
     display: block;
     margin: 0 auto;
+  }
+
+  li {
+    margin-top: 0.5em;
   }
 
   @media (min-width: 1140px) {

@@ -47,21 +47,21 @@
         "key": "R"
     },
     "DG": {
-        "icon": "https://dak.gg/bser/images/assets/skill/1010200.png",
-        "name": "Chute Vivaz",
+        "icon": "resources/skills/Glove.png",
+        "name": "Gancho",
         "description": [
-            "Li Dailin avança para a frente, causando dano aos inimigos atingidos. Ela pode reativar esta habilidade mais duas vezes.",
-            "Bêbada: Aumenta o alcance e os danos causados."
+            "Soca o seu alvo e causa dano."
         ],
-        "key": "Q"
+        "key": "D"
     },
     "DN": {
-        "icon": "https://dak.gg/bser/images/assets/skill/1010200.png",
-        "name": "Chute Vivaz",
+        "icon": "resources/skills/Nunchaku.png",
+        "name": "Bafo do Dragão",
         "description": [
-            "Li Dailin avança para a frente, causando dano aos inimigos atingidos. Ela pode reativar esta habilidade mais duas vezes.",
-            "Bêbada: Aumenta o alcance e os danos causados."
+            "Balança o nunchaku rapidamente, criando uma rajada de vento.",
+            "Balançar o nunchaku por mais de 0,8 segundo atordoa os inimigos atingidos por 1 segundo.",
+            "Depois de algum tempo, lança a rajada de vento na direção-alvo, causando dano dependendo do tempo de conjuração."
         ],
-        "key": "Q"
+        "key": "D"
     }
 }
