@@ -28,6 +28,7 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
+    padding: 0.1em;
     width: calc(var(--size) / 3);
     height: calc(var(--size) / 3);
     font-size: calc(var(--size) / 3.75);

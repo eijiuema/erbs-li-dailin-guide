@@ -103,6 +103,25 @@
           ataques normais sairão duas vezes, são raros os momentos em que isso é
           útil. Um exemplo é durante a Wickeline.
         </p>
+        <p>
+          <Tooltip>
+            <span slot="hoverable">
+              Obs²: Consumir bebidas alcóolicas dá um bonus considerável de
+              velocidade de ataque e é muito importante em builds com pouca
+              velocidade de ataque ou durante Alpha/Omega/Wickeline.
+            </span>
+            <span slot="tooltip">
+              <video autoplay loop muted>
+                <source src="resources/habilidades/passiva/SadDailin.mp4" />
+              </video>
+              <p><small>Normal</small></p>
+              <video autoplay loop muted>
+                <source src="resources/habilidades/passiva/HappyDailin.mp4" />
+              </video>
+              <p><small>Com bêbida</small></p>
+            </span>
+          </Tooltip>
+        </p>
         <aside>
           <video autoplay loop muted>
             <source src="resources/habilidades/passiva/ataques.mp4" />
@@ -127,12 +146,97 @@
           Essa habilidade é a principal mobilidade da Li Dailin, cada uso dá um
           dash, e o terceiro dash pode atravessar paredes.
         </p>
+        <p>Existem alguns detalhes importantes sobre essa habilidade:</p>
+        <ol>
+          <li>
+            <Tooltip>
+              <span slot="hoverable">
+                Se a primeira ativação da habilidade foi buffada por
+                alcoolizada, as duas ativações seguintes também serão;
+              </span>
+              <span slot="tooltip">
+                <video autoplay loop muted>
+                  <source src="resources/habilidades/q/WQTQTQT.mp4" />
+                </video>
+              </span>
+            </Tooltip>
+          </li>
+          <br />
+          <li>
+            <Tooltip>
+              <span slot="hoverable">
+                Nenhuma das ativações atravessa unidades inimigas, isso é,
+                jogadores, animais, Wickeline, etc;
+              </span>
+              <span slot="tooltip">
+                <video autoplay loop muted>
+                  <source src="resources/habilidades/q/QQQ.mp4" />
+                </video>
+              </span>
+            </Tooltip>
+          </li>
+          <br />
+          <li>
+            <Tooltip>
+              <span slot="hoverable">
+                Qualquer atordoamento, empurrão ou enraizamento cancela o dash;
+              </span>
+              <span slot="tooltip">
+                <video autoplay loop muted>
+                  <source src="resources/habilidades/q/QJavas.mp4" />
+                </video>
+              </span>
+            </Tooltip>
+          </li>
+        </ol>
+        <aside>
+          <video autoplay loop muted>
+            <source src="resources/habilidades/q/Q.mp4" />
+          </video>
+          <p><small>Q normal</small></p>
+          <video autoplay loop muted>
+            <source src="resources/habilidades/q/WQ.mp4" />
+          </video>
+          <p><small>Q com alcoolizada</small></p>
+        </aside>
+      </section>
+      <section>
+        <Skill key="W" />
         <p>
-          Se o primeiro uso foi buffado por alcoolizada, todos os usos seguintes
-          também serão buffados.
+          Cada uso dessa habilidade vai te dar 45 de CAS e te deixa imune a
+          ataques básicos durante a animação.
+        </p>
+        <q class="question"
+          >Eu ganho mais mobilidade, mais dano e fico imune a ataque básico...
+          Vou spammar essa skill então!</q
+        >
+        <small class="author"
+          >DE DAILIN, Novato.
+          <!-- svelte-ignore a11y-missing-attribute -->
+          <img class="center" src="resources/habilidades/w/WastedDailin.png" />
+        </small>
+
+        <p>
+          É interessante sempre manter a barra acima de 40 CAS, pra caso seja
+          necessário usar uma habilidade buffada imediatamente, mas é preciso
+          controlar o uso pra não se silenciar sem querer.
+        </p>
+        <p>
+          No geral, use <HoverableSkill key="W" /> sempre que seu CAS chegar em <Tooltip
+          >
+            <span slot="hoverable">40</span>
+            <span slot="tooltip">
+              <!-- svelte-ignore a11y-missing-attribute -->
+              <img src="resources/habilidades/passiva/barra.png" />
+            </span>
+          </Tooltip>.
+        </p>
+        <p>
+          Outro detalhe importante, é que cada ataque básico reduz o tempo de
+          recarga de <HoverableSkill key="W" /> em 1s, incluíndo o ataque duplo da
+          passiva <HoverableSkill key="T" />.
         </p>
       </section>
-      <Skill key="W" />
       <Skill key="E" />
       <Skill key="R" />
       <Skill key="DG" />
@@ -208,6 +312,15 @@
 
   iframe {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .center {
     display: block;
     margin: 0 auto;
   }

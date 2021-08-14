@@ -1,5 +1,5 @@
 <span>
-  <span class="hoverable" >
+  <span class="hoverable">
     <slot name="hoverable" />
   </span>
   <div class="tooltip">
@@ -13,15 +13,14 @@
   }
 
   .hoverable {
-    border-bottom: 2px dotted #fff;
+    border-bottom: 1px dashed #fff;
   }
 
   .tooltip {
     position: absolute;
     visibility: hidden;
     padding: 1em;
-    bottom: 50%;
-    left: 50%;
+    margin-top: 1em;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 8px;
