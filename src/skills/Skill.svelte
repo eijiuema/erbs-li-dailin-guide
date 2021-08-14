@@ -17,6 +17,7 @@
   .skill {
     padding: 1em;
     text-align: left;
+    min-width: 320px;
     max-width: 100vw;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
@@ -25,5 +26,6 @@
 
   .name {
     vertical-align: middle;
-  }
+    white-space: nowrap;
+}
 </style>

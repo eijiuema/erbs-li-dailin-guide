@@ -51,6 +51,15 @@
       </p>
       <q class="question">Ok, mas por que minha Li Dailin não dá dano?!</q>
       <small class="author">DE DAILIN, Novato.</small>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/r1_iuvZxx4Y"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
       <p>
         Pra causar dano com ela, é necessário entender e utilizar muito bem suas
         skills, que apesar de simples têm diversas nuâncias e pequenos detalhes
@@ -106,13 +115,13 @@
       <Skill key="DG" />
       <Skill key="DN" />
       <p>
-        <!-- <HoverableSkill size={72} key="T" />
-      <HoverableSkill size={72} key="Q" />
-      <HoverableSkill size={72} key="W" />
-      <HoverableSkill size={72} key="E" />
-      <HoverableSkill size={72} key="R" />
-      <HoverableSkill size={72} key="DG" />
-      <HoverableSkill size={72} key="DN" /> -->
+        <HoverableSkill size={72} key="T" />
+        <HoverableSkill size={72} key="Q" />
+        <HoverableSkill size={72} key="W" />
+        <HoverableSkill size={72} key="E" />
+        <HoverableSkill size={72} key="R" />
+        <HoverableSkill size={72} key="DG" />
+        <HoverableSkill size={72} key="DN" />
       </p>
     </section>
   </main>
@@ -172,6 +181,12 @@
 
   video {
     max-width: 100%;
+  }
+
+  iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 
   @media (min-width: 1140px) {
