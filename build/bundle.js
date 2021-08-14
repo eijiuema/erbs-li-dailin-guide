@@ -569,7 +569,7 @@ var app = (function () {
     		c: function create() {
     			span = element("span");
     			t = text(/*key*/ ctx[1]);
-    			attr_dev(span, "class", "key svelte-1lmzdis");
+    			attr_dev(span, "class", "key svelte-j4pn79");
     			add_location(span, file$4, 9, 4, 186);
     		},
     		m: function mount(target, anchor) {
@@ -610,9 +610,9 @@ var app = (function () {
     			if (if_block) if_block.c();
     			if (!src_url_equal(img.src, img_src_value = /*src*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*key*/ ctx[1]);
-    			attr_dev(img, "class", "svelte-1lmzdis");
+    			attr_dev(img, "class", "svelte-j4pn79");
     			add_location(img, file$4, 7, 2, 144);
-    			attr_dev(span, "class", "container svelte-1lmzdis");
+    			attr_dev(span, "class", "container svelte-j4pn79");
     			set_style(span, "--size", /*size*/ ctx[2] + "px");
     			add_location(span, file$4, 6, 0, 91);
     		},
@@ -775,11 +775,11 @@ var app = (function () {
     			t = space();
     			div = element("div");
     			if (tooltip_slot) tooltip_slot.c();
-    			attr_dev(span0, "class", "hoverable svelte-1utiko8");
+    			attr_dev(span0, "class", "hoverable svelte-6pg9cs");
     			add_location(span0, file$3, 1, 2, 10);
-    			attr_dev(div, "class", "tooltip svelte-1utiko8");
-    			add_location(div, file$3, 4, 2, 81);
-    			attr_dev(span1, "class", "svelte-1utiko8");
+    			attr_dev(div, "class", "tooltip svelte-6pg9cs");
+    			add_location(div, file$3, 4, 2, 80);
+    			attr_dev(span1, "class", "svelte-6pg9cs");
     			add_location(span1, file$3, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -1372,7 +1372,7 @@ var app = (function () {
     const file = "src\\App.svelte";
 
     // (82:12) 
-    function create_hoverable_slot(ctx) {
+    function create_hoverable_slot_5(ctx) {
     	let span;
 
     	const block = {
@@ -1392,7 +1392,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_hoverable_slot.name,
+    		id: create_hoverable_slot_5.name,
     		type: "slot",
     		source: "(82:12) ",
     		ctx
@@ -1402,7 +1402,7 @@ var app = (function () {
     }
 
     // (83:12) 
-    function create_tooltip_slot(ctx) {
+    function create_tooltip_slot_5(ctx) {
     	let span;
     	let t0;
     	let br0;
@@ -1424,6 +1424,7 @@ var app = (function () {
     			add_location(br0, file, 84, 14, 3045);
     			add_location(br1, file, 85, 14, 3066);
     			if (!src_url_equal(img.src, img_src_value = "resources/habilidades/passiva/barra.png")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "class", "svelte-p1ercs");
     			add_location(img, file, 87, 14, 3147);
     			attr_dev(span, "slot", "tooltip");
     			add_location(span, file, 82, 12, 2929);
@@ -1444,9 +1445,411 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_tooltip_slot.name,
+    		id: create_tooltip_slot_5.name,
     		type: "slot",
     		source: "(83:12) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (108:12) 
+    function create_hoverable_slot_4(ctx) {
+    	let span;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			span.textContent = "Obs²: Consumir bebidas alcóolicas dá um bonus considerável de\n              velocidade de ataque e é muito importante em builds com pouca\n              velocidade de ataque ou durante Alpha/Omega/Wickeline.";
+    			attr_dev(span, "slot", "hoverable");
+    			add_location(span, file, 107, 12, 3891);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_hoverable_slot_4.name,
+    		type: "slot",
+    		source: "(108:12) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (113:12) 
+    function create_tooltip_slot_4(ctx) {
+    	let span;
+    	let video0;
+    	let source0;
+    	let source0_src_value;
+    	let t0;
+    	let p0;
+    	let small0;
+    	let t2;
+    	let video1;
+    	let source1;
+    	let source1_src_value;
+    	let t3;
+    	let p1;
+    	let small1;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			video0 = element("video");
+    			source0 = element("source");
+    			t0 = space();
+    			p0 = element("p");
+    			small0 = element("small");
+    			small0.textContent = "Normal";
+    			t2 = space();
+    			video1 = element("video");
+    			source1 = element("source");
+    			t3 = space();
+    			p1 = element("p");
+    			small1 = element("small");
+    			small1.textContent = "Com bêbida";
+    			if (!src_url_equal(source0.src, source0_src_value = "resources/habilidades/passiva/SadDailin.mp4")) attr_dev(source0, "src", source0_src_value);
+    			add_location(source0, file, 114, 16, 4248);
+    			video0.autoplay = true;
+    			video0.loop = true;
+    			video0.muted = true;
+    			attr_dev(video0, "class", "svelte-p1ercs");
+    			add_location(video0, file, 113, 14, 4204);
+    			add_location(small0, file, 116, 17, 4349);
+    			add_location(p0, file, 116, 14, 4346);
+    			if (!src_url_equal(source1.src, source1_src_value = "resources/habilidades/passiva/HappyDailin.mp4")) attr_dev(source1, "src", source1_src_value);
+    			add_location(source1, file, 118, 16, 4433);
+    			video1.autoplay = true;
+    			video1.loop = true;
+    			video1.muted = true;
+    			attr_dev(video1, "class", "svelte-p1ercs");
+    			add_location(video1, file, 117, 14, 4389);
+    			add_location(small1, file, 120, 17, 4536);
+    			add_location(p1, file, 120, 14, 4533);
+    			attr_dev(span, "slot", "tooltip");
+    			add_location(span, file, 112, 12, 4168);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    			append_dev(span, video0);
+    			append_dev(video0, source0);
+    			append_dev(span, t0);
+    			append_dev(span, p0);
+    			append_dev(p0, small0);
+    			append_dev(span, t2);
+    			append_dev(span, video1);
+    			append_dev(video1, source1);
+    			append_dev(span, t3);
+    			append_dev(span, p1);
+    			append_dev(p1, small1);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_tooltip_slot_4.name,
+    		type: "slot",
+    		source: "(113:12) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (153:14) 
+    function create_hoverable_slot_3(ctx) {
+    	let span;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			span.textContent = "Se a primeira ativação da habilidade foi buffada por\n                alcoolizada, as duas ativações seguintes também serão;";
+    			attr_dev(span, "slot", "hoverable");
+    			add_location(span, file, 152, 14, 5560);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_hoverable_slot_3.name,
+    		type: "slot",
+    		source: "(153:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (157:14) 
+    function create_tooltip_slot_3(ctx) {
+    	let span;
+    	let video;
+    	let source;
+    	let source_src_value;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			video = element("video");
+    			source = element("source");
+    			if (!src_url_equal(source.src, source_src_value = "resources/habilidades/q/WQTQTQT.mp4")) attr_dev(source, "src", source_src_value);
+    			add_location(source, file, 158, 18, 5844);
+    			video.autoplay = true;
+    			video.loop = true;
+    			video.muted = true;
+    			attr_dev(video, "class", "svelte-p1ercs");
+    			add_location(video, file, 157, 16, 5798);
+    			attr_dev(span, "slot", "tooltip");
+    			add_location(span, file, 156, 14, 5760);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    			append_dev(span, video);
+    			append_dev(video, source);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_tooltip_slot_3.name,
+    		type: "slot",
+    		source: "(157:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (167:14) 
+    function create_hoverable_slot_2(ctx) {
+    	let span;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			span.textContent = "Nenhuma das ativações atravessa unidades inimigas, isso é,\n                jogadores, animais, Wickeline, etc;";
+    			attr_dev(span, "slot", "hoverable");
+    			add_location(span, file, 166, 14, 6051);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_hoverable_slot_2.name,
+    		type: "slot",
+    		source: "(167:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (171:14) 
+    function create_tooltip_slot_2(ctx) {
+    	let span;
+    	let video;
+    	let source;
+    	let source_src_value;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			video = element("video");
+    			source = element("source");
+    			if (!src_url_equal(source.src, source_src_value = "resources/habilidades/q/QQQ.mp4")) attr_dev(source, "src", source_src_value);
+    			add_location(source, file, 172, 18, 6322);
+    			video.autoplay = true;
+    			video.loop = true;
+    			video.muted = true;
+    			attr_dev(video, "class", "svelte-p1ercs");
+    			add_location(video, file, 171, 16, 6276);
+    			attr_dev(span, "slot", "tooltip");
+    			add_location(span, file, 170, 14, 6238);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    			append_dev(span, video);
+    			append_dev(video, source);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_tooltip_slot_2.name,
+    		type: "slot",
+    		source: "(171:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (181:14) 
+    function create_hoverable_slot_1(ctx) {
+    	let span;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			span.textContent = "Qualquer atordoamento, empurrão ou enraizamento cancela o dash;";
+    			attr_dev(span, "slot", "hoverable");
+    			add_location(span, file, 180, 14, 6525);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_hoverable_slot_1.name,
+    		type: "slot",
+    		source: "(181:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (184:14) 
+    function create_tooltip_slot_1(ctx) {
+    	let span;
+    	let video;
+    	let source;
+    	let source_src_value;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			video = element("video");
+    			source = element("source");
+    			if (!src_url_equal(source.src, source_src_value = "resources/habilidades/q/QJavas.mp4")) attr_dev(source, "src", source_src_value);
+    			add_location(source, file, 185, 18, 6749);
+    			video.autoplay = true;
+    			video.loop = true;
+    			video.muted = true;
+    			attr_dev(video, "class", "svelte-p1ercs");
+    			add_location(video, file, 184, 16, 6703);
+    			attr_dev(span, "slot", "tooltip");
+    			add_location(span, file, 183, 14, 6665);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    			append_dev(span, video);
+    			append_dev(video, source);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_tooltip_slot_1.name,
+    		type: "slot",
+    		source: "(184:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (227:12) 
+    function create_hoverable_slot(ctx) {
+    	let span;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			span.textContent = "40";
+    			attr_dev(span, "slot", "hoverable");
+    			add_location(span, file, 226, 12, 8203);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_hoverable_slot.name,
+    		type: "slot",
+    		source: "(227:12) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (228:12) 
+    function create_tooltip_slot(ctx) {
+    	let span;
+    	let img;
+    	let img_src_value;
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			img = element("img");
+    			t = space();
+    			if (!src_url_equal(img.src, img_src_value = "resources/habilidades/passiva/barra.png")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "class", "svelte-p1ercs");
+    			add_location(img, file, 229, 14, 8344);
+    			attr_dev(span, "slot", "tooltip");
+    			add_location(span, file, 227, 12, 8248);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    			append_dev(span, img);
+    			append_dev(span, t);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_tooltip_slot.name,
+    		type: "slot",
+    		source: "(228:12) ",
     		ctx
     	});
 
@@ -1458,8 +1861,8 @@ var app = (function () {
     	let header;
     	let h10;
     	let t1;
-    	let img;
-    	let img_src_value;
+    	let img0;
+    	let img0_src_value;
     	let t2;
     	let main;
     	let section0;
@@ -1498,7 +1901,7 @@ var app = (function () {
     	let t29;
     	let p6;
     	let t31;
-    	let section5;
+    	let section6;
     	let h14;
     	let t33;
     	let section3;
@@ -1508,7 +1911,7 @@ var app = (function () {
     	let t36;
     	let p8;
     	let t37;
-    	let tooltip;
+    	let tooltip0;
     	let t38;
     	let t39;
     	let ol0;
@@ -1522,59 +1925,117 @@ var app = (function () {
     	let t47;
     	let p10;
     	let t49;
-    	let aside;
+    	let p11;
+    	let tooltip1;
+    	let t50;
+    	let aside0;
     	let video0;
     	let source0;
     	let source0_src_value;
-    	let t50;
+    	let t51;
     	let small1;
     	let ol1;
     	let li3;
-    	let t52;
+    	let t53;
     	let li4;
-    	let t54;
+    	let t55;
     	let li5;
-    	let t56;
+    	let t57;
     	let li6;
-    	let t58;
+    	let t59;
     	let video1;
     	let source1;
     	let source1_src_value;
-    	let t59;
-    	let p11;
+    	let t60;
+    	let p12;
     	let small2;
-    	let t61;
+    	let t62;
     	let section4;
     	let skill1;
-    	let t62;
-    	let p12;
-    	let t64;
+    	let t63;
     	let p13;
-    	let t66;
-    	let skill2;
-    	let t67;
-    	let skill3;
-    	let t68;
-    	let skill4;
-    	let t69;
-    	let skill5;
-    	let t70;
-    	let skill6;
-    	let t71;
+    	let t65;
     	let p14;
-    	let hoverableskill0;
+    	let t67;
+    	let ol2;
+    	let li7;
+    	let tooltip2;
+    	let t68;
+    	let br0;
+    	let t69;
+    	let li8;
+    	let tooltip3;
+    	let t70;
+    	let br1;
+    	let t71;
+    	let li9;
+    	let tooltip4;
     	let t72;
-    	let hoverableskill1;
+    	let aside1;
+    	let video2;
+    	let source2;
+    	let source2_src_value;
     	let t73;
-    	let hoverableskill2;
-    	let t74;
-    	let hoverableskill3;
+    	let p15;
+    	let small3;
     	let t75;
-    	let hoverableskill4;
+    	let video3;
+    	let source3;
+    	let source3_src_value;
     	let t76;
+    	let p16;
+    	let small4;
+    	let t78;
+    	let section5;
+    	let skill2;
+    	let t79;
+    	let p17;
+    	let t81;
+    	let q3;
+    	let t83;
+    	let small5;
+    	let t84;
+    	let img1;
+    	let img1_src_value;
+    	let t85;
+    	let p18;
+    	let t87;
+    	let p19;
+    	let t88;
+    	let hoverableskill0;
+    	let t89;
+    	let tooltip5;
+    	let t90;
+    	let t91;
+    	let p20;
+    	let t92;
+    	let hoverableskill1;
+    	let t93;
+    	let hoverableskill2;
+    	let t94;
+    	let t95;
+    	let skill3;
+    	let t96;
+    	let skill4;
+    	let t97;
+    	let skill5;
+    	let t98;
+    	let skill6;
+    	let t99;
+    	let p21;
+    	let hoverableskill3;
+    	let t100;
+    	let hoverableskill4;
+    	let t101;
     	let hoverableskill5;
-    	let t77;
+    	let t102;
     	let hoverableskill6;
+    	let t103;
+    	let hoverableskill7;
+    	let t104;
+    	let hoverableskill8;
+    	let t105;
+    	let hoverableskill9;
     	let current;
 
     	copiabletext = new CopiableText({
@@ -1584,7 +2045,67 @@ var app = (function () {
 
     	skill0 = new Skill({ props: { key: "T" }, $$inline: true });
 
-    	tooltip = new Tooltip({
+    	tooltip0 = new Tooltip({
+    			props: {
+    				$$slots: {
+    					tooltip: [create_tooltip_slot_5],
+    					hoverable: [create_hoverable_slot_5]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tooltip1 = new Tooltip({
+    			props: {
+    				$$slots: {
+    					tooltip: [create_tooltip_slot_4],
+    					hoverable: [create_hoverable_slot_4]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	skill1 = new Skill({ props: { key: "Q" }, $$inline: true });
+
+    	tooltip2 = new Tooltip({
+    			props: {
+    				$$slots: {
+    					tooltip: [create_tooltip_slot_3],
+    					hoverable: [create_hoverable_slot_3]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tooltip3 = new Tooltip({
+    			props: {
+    				$$slots: {
+    					tooltip: [create_tooltip_slot_2],
+    					hoverable: [create_hoverable_slot_2]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tooltip4 = new Tooltip({
+    			props: {
+    				$$slots: {
+    					tooltip: [create_tooltip_slot_1],
+    					hoverable: [create_hoverable_slot_1]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	skill2 = new Skill({ props: { key: "W" }, $$inline: true });
+    	hoverableskill0 = new HoverableSkill({ props: { key: "W" }, $$inline: true });
+
+    	tooltip5 = new Tooltip({
     			props: {
     				$$slots: {
     					tooltip: [create_tooltip_slot],
@@ -1595,44 +2116,44 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	skill1 = new Skill({ props: { key: "Q" }, $$inline: true });
-    	skill2 = new Skill({ props: { key: "W" }, $$inline: true });
+    	hoverableskill1 = new HoverableSkill({ props: { key: "W" }, $$inline: true });
+    	hoverableskill2 = new HoverableSkill({ props: { key: "T" }, $$inline: true });
     	skill3 = new Skill({ props: { key: "E" }, $$inline: true });
     	skill4 = new Skill({ props: { key: "R" }, $$inline: true });
     	skill5 = new Skill({ props: { key: "DG" }, $$inline: true });
     	skill6 = new Skill({ props: { key: "DN" }, $$inline: true });
 
-    	hoverableskill0 = new HoverableSkill({
+    	hoverableskill3 = new HoverableSkill({
     			props: { size: 72, key: "T" },
     			$$inline: true
     		});
 
-    	hoverableskill1 = new HoverableSkill({
+    	hoverableskill4 = new HoverableSkill({
     			props: { size: 72, key: "Q" },
     			$$inline: true
     		});
 
-    	hoverableskill2 = new HoverableSkill({
+    	hoverableskill5 = new HoverableSkill({
     			props: { size: 72, key: "W" },
     			$$inline: true
     		});
 
-    	hoverableskill3 = new HoverableSkill({
+    	hoverableskill6 = new HoverableSkill({
     			props: { size: 72, key: "E" },
     			$$inline: true
     		});
 
-    	hoverableskill4 = new HoverableSkill({
+    	hoverableskill7 = new HoverableSkill({
     			props: { size: 72, key: "R" },
     			$$inline: true
     		});
 
-    	hoverableskill5 = new HoverableSkill({
+    	hoverableskill8 = new HoverableSkill({
     			props: { size: 72, key: "DG" },
     			$$inline: true
     		});
 
-    	hoverableskill6 = new HoverableSkill({
+    	hoverableskill9 = new HoverableSkill({
     			props: { size: 72, key: "DN" },
     			$$inline: true
     		});
@@ -1644,7 +2165,7 @@ var app = (function () {
     			h10 = element("h1");
     			h10.textContent = "\"....Do I really have to do this?\"";
     			t1 = space();
-    			img = element("img");
+    			img0 = element("img");
     			t2 = space();
     			main = element("main");
     			section0 = element("section");
@@ -1695,7 +2216,7 @@ var app = (function () {
     			p6 = element("p");
     			p6.textContent = "Pra causar dano com ela, é necessário entender e utilizar muito bem suas\n        skills, que apesar de simples têm diversas nuâncias e pequenos detalhes\n        que podem alterar e muito o seu potencial de dano.";
     			t31 = space();
-    			section5 = element("section");
+    			section6 = element("section");
     			h14 = element("h1");
     			h14.textContent = "Habilidades";
     			t33 = space();
@@ -1707,7 +2228,7 @@ var app = (function () {
     			t36 = space();
     			p8 = element("p");
     			t37 = text("Se você tiver\n          ");
-    			create_component(tooltip.$$.fragment);
+    			create_component(tooltip0.$$.fragment);
     			t38 = text(" ao usar uma habilidade:");
     			t39 = space();
     			ol0 = element("ol");
@@ -1726,93 +2247,154 @@ var app = (function () {
     			p10 = element("p");
     			p10.textContent = "Se você atingir 100 de CAS, ficará silenciado por 5s e todos os\n          ataques normais sairão duas vezes, são raros os momentos em que isso é\n          útil. Um exemplo é durante a Wickeline.";
     			t49 = space();
-    			aside = element("aside");
+    			p11 = element("p");
+    			create_component(tooltip1.$$.fragment);
+    			t50 = space();
+    			aside0 = element("aside");
     			video0 = element("video");
     			source0 = element("source");
-    			t50 = space();
+    			t51 = space();
     			small1 = element("small");
     			ol1 = element("ol");
     			li3 = element("li");
     			li3.textContent = "Ataque normal";
-    			t52 = space();
+    			t53 = space();
     			li4 = element("li");
     			li4.textContent = "Ataque bêbada";
-    			t54 = space();
+    			t55 = space();
     			li5 = element("li");
     			li5.textContent = "Ataque alcoolizada";
-    			t56 = space();
+    			t57 = space();
     			li6 = element("li");
     			li6.textContent = "Ataque embriagada";
-    			t58 = space();
+    			t59 = space();
     			video1 = element("video");
     			source1 = element("source");
-    			t59 = space();
-    			p11 = element("p");
+    			t60 = space();
+    			p12 = element("p");
     			small2 = element("small");
     			small2.textContent = "Embriagada durante Wickeline";
-    			t61 = space();
+    			t62 = space();
     			section4 = element("section");
     			create_component(skill1.$$.fragment);
-    			t62 = space();
-    			p12 = element("p");
-    			p12.textContent = "Essa habilidade é a principal mobilidade da Li Dailin, cada uso dá um\n          dash, e o terceiro dash pode atravessar paredes.";
-    			t64 = space();
+    			t63 = space();
     			p13 = element("p");
-    			p13.textContent = "Se o primeiro uso foi buffado por alcoolizada, todos os usos seguintes\n          também serão buffados.";
-    			t66 = space();
-    			create_component(skill2.$$.fragment);
-    			t67 = space();
-    			create_component(skill3.$$.fragment);
-    			t68 = space();
-    			create_component(skill4.$$.fragment);
-    			t69 = space();
-    			create_component(skill5.$$.fragment);
-    			t70 = space();
-    			create_component(skill6.$$.fragment);
-    			t71 = space();
+    			p13.textContent = "Essa habilidade é a principal mobilidade da Li Dailin, cada uso dá um\n          dash, e o terceiro dash pode atravessar paredes.";
+    			t65 = space();
     			p14 = element("p");
-    			create_component(hoverableskill0.$$.fragment);
+    			p14.textContent = "Existem alguns detalhes importantes sobre essa habilidade:";
+    			t67 = space();
+    			ol2 = element("ol");
+    			li7 = element("li");
+    			create_component(tooltip2.$$.fragment);
+    			t68 = space();
+    			br0 = element("br");
+    			t69 = space();
+    			li8 = element("li");
+    			create_component(tooltip3.$$.fragment);
+    			t70 = space();
+    			br1 = element("br");
+    			t71 = space();
+    			li9 = element("li");
+    			create_component(tooltip4.$$.fragment);
     			t72 = space();
-    			create_component(hoverableskill1.$$.fragment);
+    			aside1 = element("aside");
+    			video2 = element("video");
+    			source2 = element("source");
     			t73 = space();
-    			create_component(hoverableskill2.$$.fragment);
-    			t74 = space();
-    			create_component(hoverableskill3.$$.fragment);
+    			p15 = element("p");
+    			small3 = element("small");
+    			small3.textContent = "Q normal";
     			t75 = space();
-    			create_component(hoverableskill4.$$.fragment);
+    			video3 = element("video");
+    			source3 = element("source");
     			t76 = space();
+    			p16 = element("p");
+    			small4 = element("small");
+    			small4.textContent = "Q com alcoolizada";
+    			t78 = space();
+    			section5 = element("section");
+    			create_component(skill2.$$.fragment);
+    			t79 = space();
+    			p17 = element("p");
+    			p17.textContent = "Cada uso dessa habilidade vai te dar 45 de CAS e te deixa imune a\n          ataques básicos durante a animação.";
+    			t81 = space();
+    			q3 = element("q");
+    			q3.textContent = "Eu ganho mais mobilidade, mais dano e fico imune a ataque básico...\n          Vou spammar essa skill então!";
+    			t83 = space();
+    			small5 = element("small");
+    			t84 = text("DE DAILIN, Novato.\n          \n          ");
+    			img1 = element("img");
+    			t85 = space();
+    			p18 = element("p");
+    			p18.textContent = "É interessante sempre manter a barra acima de 40 CAS, pra caso seja\n          necessário usar uma habilidade buffada imediatamente, mas é preciso\n          controlar o uso pra não se silenciar sem querer.";
+    			t87 = space();
+    			p19 = element("p");
+    			t88 = text("No geral, use ");
+    			create_component(hoverableskill0.$$.fragment);
+    			t89 = text(" sempre que seu CAS chegar em ");
+    			create_component(tooltip5.$$.fragment);
+    			t90 = text(".");
+    			t91 = space();
+    			p20 = element("p");
+    			t92 = text("Outro detalhe importante, é que cada ataque básico reduz o tempo de\n          recarga de ");
+    			create_component(hoverableskill1.$$.fragment);
+    			t93 = text(" em 1s, incluíndo o ataque duplo da\n          passiva ");
+    			create_component(hoverableskill2.$$.fragment);
+    			t94 = text(".");
+    			t95 = space();
+    			create_component(skill3.$$.fragment);
+    			t96 = space();
+    			create_component(skill4.$$.fragment);
+    			t97 = space();
+    			create_component(skill5.$$.fragment);
+    			t98 = space();
+    			create_component(skill6.$$.fragment);
+    			t99 = space();
+    			p21 = element("p");
+    			create_component(hoverableskill3.$$.fragment);
+    			t100 = space();
+    			create_component(hoverableskill4.$$.fragment);
+    			t101 = space();
     			create_component(hoverableskill5.$$.fragment);
-    			t77 = space();
+    			t102 = space();
     			create_component(hoverableskill6.$$.fragment);
-    			attr_dev(h10, "class", "svelte-bl5l2m");
+    			t103 = space();
+    			create_component(hoverableskill7.$$.fragment);
+    			t104 = space();
+    			create_component(hoverableskill8.$$.fragment);
+    			t105 = space();
+    			create_component(hoverableskill9.$$.fragment);
+    			attr_dev(h10, "class", "svelte-p1ercs");
     			add_location(h10, file, 9, 4, 261);
-    			if (!src_url_equal(img.src, img_src_value = "resources/header/Tourist_Li_Dailin.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file, 11, 4, 359);
-    			attr_dev(header, "class", "svelte-bl5l2m");
+    			if (!src_url_equal(img0.src, img0_src_value = "resources/header/Tourist_Li_Dailin.png")) attr_dev(img0, "src", img0_src_value);
+    			attr_dev(img0, "class", "svelte-p1ercs");
+    			add_location(img0, file, 11, 4, 359);
+    			attr_dev(header, "class", "svelte-p1ercs");
     			add_location(header, file, 8, 2, 248);
-    			attr_dev(h11, "class", "svelte-bl5l2m");
+    			attr_dev(h11, "class", "svelte-p1ercs");
     			add_location(h11, file, 15, 6, 453);
     			add_location(p0, file, 16, 6, 479);
     			add_location(p1, file, 21, 6, 719);
     			add_location(p2, file, 25, 6, 835);
-    			attr_dev(section0, "class", "svelte-bl5l2m");
+    			attr_dev(section0, "class", "svelte-p1ercs");
     			add_location(section0, file, 14, 4, 437);
-    			attr_dev(h12, "class", "svelte-bl5l2m");
+    			attr_dev(h12, "class", "svelte-p1ercs");
     			add_location(h12, file, 31, 6, 1032);
     			add_location(p3, file, 32, 6, 1056);
-    			attr_dev(q0, "class", "question svelte-bl5l2m");
+    			attr_dev(q0, "class", "question svelte-p1ercs");
     			add_location(q0, file, 37, 6, 1251);
-    			attr_dev(q1, "class", "answer svelte-bl5l2m");
+    			attr_dev(q1, "class", "answer svelte-p1ercs");
     			add_location(q1, file, 38, 6, 1322);
     			add_location(p4, file, 41, 6, 1438);
-    			attr_dev(section1, "class", "svelte-bl5l2m");
+    			attr_dev(section1, "class", "svelte-p1ercs");
     			add_location(section1, file, 30, 4, 1016);
-    			attr_dev(h13, "class", "svelte-bl5l2m");
+    			attr_dev(h13, "class", "svelte-p1ercs");
     			add_location(h13, file, 48, 6, 1692);
     			add_location(p5, file, 49, 6, 1718);
-    			attr_dev(q2, "class", "question svelte-bl5l2m");
+    			attr_dev(q2, "class", "question svelte-p1ercs");
     			add_location(q2, file, 53, 6, 1855);
-    			attr_dev(small0, "class", "author svelte-bl5l2m");
+    			attr_dev(small0, "class", "author svelte-p1ercs");
     			add_location(small0, file, 54, 6, 1931);
     			attr_dev(iframe, "width", "560");
     			attr_dev(iframe, "height", "315");
@@ -1821,12 +2403,12 @@ var app = (function () {
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
     			iframe.allowFullscreen = true;
-    			attr_dev(iframe, "class", "svelte-bl5l2m");
+    			attr_dev(iframe, "class", "svelte-p1ercs");
     			add_location(iframe, file, 55, 6, 1986);
     			add_location(p6, file, 64, 6, 2305);
-    			attr_dev(section2, "class", "svelte-bl5l2m");
+    			attr_dev(section2, "class", "svelte-p1ercs");
     			add_location(section2, file, 47, 4, 1676);
-    			attr_dev(h14, "class", "svelte-bl5l2m");
+    			attr_dev(h14, "class", "svelte-p1ercs");
     			add_location(h14, file, 71, 6, 2575);
     			add_location(p7, file, 74, 8, 2646);
     			add_location(p8, file, 78, 8, 2812);
@@ -1836,42 +2418,82 @@ var app = (function () {
     			add_location(ol0, file, 91, 8, 3287);
     			add_location(p9, file, 96, 8, 3498);
     			add_location(p10, file, 100, 8, 3625);
+    			add_location(p11, file, 105, 8, 3855);
     			if (!src_url_equal(source0.src, source0_src_value = "resources/habilidades/passiva/ataques.mp4")) attr_dev(source0, "src", source0_src_value);
-    			add_location(source0, file, 107, 12, 3913);
+    			add_location(source0, file, 126, 12, 4686);
     			video0.autoplay = true;
     			video0.loop = true;
     			video0.muted = true;
-    			attr_dev(video0, "class", "svelte-bl5l2m");
-    			add_location(video0, file, 106, 10, 3873);
-    			add_location(li3, file, 111, 14, 4040);
-    			add_location(li4, file, 112, 14, 4077);
-    			add_location(li5, file, 113, 14, 4114);
-    			add_location(li6, file, 114, 14, 4156);
-    			add_location(ol1, file, 110, 12, 4021);
-    			add_location(small1, file, 109, 10, 4001);
+    			attr_dev(video0, "class", "svelte-p1ercs");
+    			add_location(video0, file, 125, 10, 4646);
+    			add_location(li3, file, 130, 14, 4813);
+    			add_location(li4, file, 131, 14, 4850);
+    			add_location(li5, file, 132, 14, 4887);
+    			add_location(li6, file, 133, 14, 4929);
+    			add_location(ol1, file, 129, 12, 4794);
+    			add_location(small1, file, 128, 10, 4774);
     			if (!src_url_equal(source1.src, source1_src_value = "resources/habilidades/passiva/silence.mp4")) attr_dev(source1, "src", source1_src_value);
-    			add_location(source1, file, 118, 12, 4270);
+    			add_location(source1, file, 137, 12, 5043);
     			video1.autoplay = true;
     			video1.loop = true;
     			video1.muted = true;
-    			attr_dev(video1, "class", "svelte-bl5l2m");
-    			add_location(video1, file, 117, 10, 4230);
-    			add_location(small2, file, 120, 13, 4361);
-    			add_location(p11, file, 120, 10, 4358);
-    			attr_dev(aside, "class", "svelte-bl5l2m");
-    			add_location(aside, file, 105, 8, 3855);
-    			attr_dev(section3, "class", "svelte-bl5l2m");
+    			attr_dev(video1, "class", "svelte-p1ercs");
+    			add_location(video1, file, 136, 10, 5003);
+    			add_location(small2, file, 139, 13, 5134);
+    			add_location(p12, file, 139, 10, 5131);
+    			attr_dev(aside0, "class", "svelte-p1ercs");
+    			add_location(aside0, file, 124, 8, 4628);
+    			attr_dev(section3, "class", "svelte-p1ercs");
     			add_location(section3, file, 72, 6, 2602);
-    			add_location(p12, file, 125, 8, 4493);
-    			add_location(p13, file, 129, 8, 4657);
-    			attr_dev(section4, "class", "svelte-bl5l2m");
-    			add_location(section4, file, 123, 6, 4449);
-    			add_location(p14, file, 139, 6, 4933);
-    			attr_dev(section5, "class", "svelte-bl5l2m");
-    			add_location(section5, file, 70, 4, 2559);
-    			attr_dev(main, "class", "svelte-bl5l2m");
+    			add_location(p13, file, 144, 8, 5266);
+    			add_location(p14, file, 148, 8, 5430);
+    			add_location(li7, file, 150, 10, 5519);
+    			add_location(br0, file, 163, 10, 5993);
+    			add_location(li8, file, 164, 10, 6010);
+    			add_location(br1, file, 177, 10, 6467);
+    			add_location(li9, file, 178, 10, 6484);
+    			add_location(ol2, file, 149, 8, 5504);
+    			if (!src_url_equal(source2.src, source2_src_value = "resources/habilidades/q/Q.mp4")) attr_dev(source2, "src", source2_src_value);
+    			add_location(source2, file, 193, 12, 6967);
+    			video2.autoplay = true;
+    			video2.loop = true;
+    			video2.muted = true;
+    			attr_dev(video2, "class", "svelte-p1ercs");
+    			add_location(video2, file, 192, 10, 6927);
+    			add_location(small3, file, 195, 13, 7046);
+    			add_location(p15, file, 195, 10, 7043);
+    			if (!src_url_equal(source3.src, source3_src_value = "resources/habilidades/q/WQ.mp4")) attr_dev(source3, "src", source3_src_value);
+    			add_location(source3, file, 197, 12, 7124);
+    			video3.autoplay = true;
+    			video3.loop = true;
+    			video3.muted = true;
+    			attr_dev(video3, "class", "svelte-p1ercs");
+    			add_location(video3, file, 196, 10, 7084);
+    			add_location(small4, file, 199, 13, 7204);
+    			add_location(p16, file, 199, 10, 7201);
+    			attr_dev(aside1, "class", "svelte-p1ercs");
+    			add_location(aside1, file, 191, 8, 6909);
+    			attr_dev(section4, "class", "svelte-p1ercs");
+    			add_location(section4, file, 142, 6, 5222);
+    			add_location(p17, file, 204, 8, 7325);
+    			attr_dev(q3, "class", "question svelte-p1ercs");
+    			add_location(q3, file, 208, 8, 7472);
+    			attr_dev(img1, "class", "center svelte-p1ercs");
+    			if (!src_url_equal(img1.src, img1_src_value = "resources/habilidades/w/WastedDailin.png")) attr_dev(img1, "src", img1_src_value);
+    			add_location(img1, file, 215, 10, 7750);
+    			attr_dev(small5, "class", "author svelte-p1ercs");
+    			add_location(small5, file, 212, 8, 7632);
+    			add_location(p18, file, 218, 8, 7846);
+    			add_location(p19, file, 223, 8, 8086);
+    			add_location(p20, file, 233, 8, 8461);
+    			attr_dev(section5, "class", "svelte-p1ercs");
+    			add_location(section5, file, 202, 6, 7281);
+    			add_location(p21, file, 243, 6, 8806);
+    			attr_dev(section6, "class", "svelte-p1ercs");
+    			add_location(section6, file, 70, 4, 2559);
+    			attr_dev(main, "class", "svelte-p1ercs");
     			add_location(main, file, 13, 2, 426);
-    			attr_dev(div, "class", "container svelte-bl5l2m");
+    			attr_dev(div, "class", "container svelte-p1ercs");
     			add_location(div, file, 7, 0, 222);
     		},
     		l: function claim(nodes) {
@@ -1882,7 +2504,7 @@ var app = (function () {
     			append_dev(div, header);
     			append_dev(header, h10);
     			append_dev(header, t1);
-    			append_dev(header, img);
+    			append_dev(header, img0);
     			append_dev(div, t2);
     			append_dev(div, main);
     			append_dev(main, section0);
@@ -1920,17 +2542,17 @@ var app = (function () {
     			append_dev(section2, t29);
     			append_dev(section2, p6);
     			append_dev(main, t31);
-    			append_dev(main, section5);
-    			append_dev(section5, h14);
-    			append_dev(section5, t33);
-    			append_dev(section5, section3);
+    			append_dev(main, section6);
+    			append_dev(section6, h14);
+    			append_dev(section6, t33);
+    			append_dev(section6, section3);
     			mount_component(skill0, section3, null);
     			append_dev(section3, t34);
     			append_dev(section3, p7);
     			append_dev(section3, t36);
     			append_dev(section3, p8);
     			append_dev(p8, t37);
-    			mount_component(tooltip, p8, null);
+    			mount_component(tooltip0, p8, null);
     			append_dev(p8, t38);
     			append_dev(section3, t39);
     			append_dev(section3, ol0);
@@ -1944,125 +2566,239 @@ var app = (function () {
     			append_dev(section3, t47);
     			append_dev(section3, p10);
     			append_dev(section3, t49);
-    			append_dev(section3, aside);
-    			append_dev(aside, video0);
+    			append_dev(section3, p11);
+    			mount_component(tooltip1, p11, null);
+    			append_dev(section3, t50);
+    			append_dev(section3, aside0);
+    			append_dev(aside0, video0);
     			append_dev(video0, source0);
-    			append_dev(aside, t50);
-    			append_dev(aside, small1);
+    			append_dev(aside0, t51);
+    			append_dev(aside0, small1);
     			append_dev(small1, ol1);
     			append_dev(ol1, li3);
-    			append_dev(ol1, t52);
+    			append_dev(ol1, t53);
     			append_dev(ol1, li4);
-    			append_dev(ol1, t54);
+    			append_dev(ol1, t55);
     			append_dev(ol1, li5);
-    			append_dev(ol1, t56);
+    			append_dev(ol1, t57);
     			append_dev(ol1, li6);
-    			append_dev(aside, t58);
-    			append_dev(aside, video1);
+    			append_dev(aside0, t59);
+    			append_dev(aside0, video1);
     			append_dev(video1, source1);
-    			append_dev(aside, t59);
-    			append_dev(aside, p11);
-    			append_dev(p11, small2);
-    			append_dev(section5, t61);
-    			append_dev(section5, section4);
+    			append_dev(aside0, t60);
+    			append_dev(aside0, p12);
+    			append_dev(p12, small2);
+    			append_dev(section6, t62);
+    			append_dev(section6, section4);
     			mount_component(skill1, section4, null);
-    			append_dev(section4, t62);
-    			append_dev(section4, p12);
-    			append_dev(section4, t64);
+    			append_dev(section4, t63);
     			append_dev(section4, p13);
-    			append_dev(section5, t66);
+    			append_dev(section4, t65);
+    			append_dev(section4, p14);
+    			append_dev(section4, t67);
+    			append_dev(section4, ol2);
+    			append_dev(ol2, li7);
+    			mount_component(tooltip2, li7, null);
+    			append_dev(ol2, t68);
+    			append_dev(ol2, br0);
+    			append_dev(ol2, t69);
+    			append_dev(ol2, li8);
+    			mount_component(tooltip3, li8, null);
+    			append_dev(ol2, t70);
+    			append_dev(ol2, br1);
+    			append_dev(ol2, t71);
+    			append_dev(ol2, li9);
+    			mount_component(tooltip4, li9, null);
+    			append_dev(section4, t72);
+    			append_dev(section4, aside1);
+    			append_dev(aside1, video2);
+    			append_dev(video2, source2);
+    			append_dev(aside1, t73);
+    			append_dev(aside1, p15);
+    			append_dev(p15, small3);
+    			append_dev(aside1, t75);
+    			append_dev(aside1, video3);
+    			append_dev(video3, source3);
+    			append_dev(aside1, t76);
+    			append_dev(aside1, p16);
+    			append_dev(p16, small4);
+    			append_dev(section6, t78);
+    			append_dev(section6, section5);
     			mount_component(skill2, section5, null);
-    			append_dev(section5, t67);
-    			mount_component(skill3, section5, null);
-    			append_dev(section5, t68);
-    			mount_component(skill4, section5, null);
-    			append_dev(section5, t69);
-    			mount_component(skill5, section5, null);
-    			append_dev(section5, t70);
-    			mount_component(skill6, section5, null);
-    			append_dev(section5, t71);
-    			append_dev(section5, p14);
-    			mount_component(hoverableskill0, p14, null);
-    			append_dev(p14, t72);
-    			mount_component(hoverableskill1, p14, null);
-    			append_dev(p14, t73);
-    			mount_component(hoverableskill2, p14, null);
-    			append_dev(p14, t74);
-    			mount_component(hoverableskill3, p14, null);
-    			append_dev(p14, t75);
-    			mount_component(hoverableskill4, p14, null);
-    			append_dev(p14, t76);
-    			mount_component(hoverableskill5, p14, null);
-    			append_dev(p14, t77);
-    			mount_component(hoverableskill6, p14, null);
+    			append_dev(section5, t79);
+    			append_dev(section5, p17);
+    			append_dev(section5, t81);
+    			append_dev(section5, q3);
+    			append_dev(section5, t83);
+    			append_dev(section5, small5);
+    			append_dev(small5, t84);
+    			append_dev(small5, img1);
+    			append_dev(section5, t85);
+    			append_dev(section5, p18);
+    			append_dev(section5, t87);
+    			append_dev(section5, p19);
+    			append_dev(p19, t88);
+    			mount_component(hoverableskill0, p19, null);
+    			append_dev(p19, t89);
+    			mount_component(tooltip5, p19, null);
+    			append_dev(p19, t90);
+    			append_dev(section5, t91);
+    			append_dev(section5, p20);
+    			append_dev(p20, t92);
+    			mount_component(hoverableskill1, p20, null);
+    			append_dev(p20, t93);
+    			mount_component(hoverableskill2, p20, null);
+    			append_dev(p20, t94);
+    			append_dev(section6, t95);
+    			mount_component(skill3, section6, null);
+    			append_dev(section6, t96);
+    			mount_component(skill4, section6, null);
+    			append_dev(section6, t97);
+    			mount_component(skill5, section6, null);
+    			append_dev(section6, t98);
+    			mount_component(skill6, section6, null);
+    			append_dev(section6, t99);
+    			append_dev(section6, p21);
+    			mount_component(hoverableskill3, p21, null);
+    			append_dev(p21, t100);
+    			mount_component(hoverableskill4, p21, null);
+    			append_dev(p21, t101);
+    			mount_component(hoverableskill5, p21, null);
+    			append_dev(p21, t102);
+    			mount_component(hoverableskill6, p21, null);
+    			append_dev(p21, t103);
+    			mount_component(hoverableskill7, p21, null);
+    			append_dev(p21, t104);
+    			mount_component(hoverableskill8, p21, null);
+    			append_dev(p21, t105);
+    			mount_component(hoverableskill9, p21, null);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
-    			const tooltip_changes = {};
+    			const tooltip0_changes = {};
 
     			if (dirty & /*$$scope*/ 1) {
-    				tooltip_changes.$$scope = { dirty, ctx };
+    				tooltip0_changes.$$scope = { dirty, ctx };
     			}
 
-    			tooltip.$set(tooltip_changes);
+    			tooltip0.$set(tooltip0_changes);
+    			const tooltip1_changes = {};
+
+    			if (dirty & /*$$scope*/ 1) {
+    				tooltip1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tooltip1.$set(tooltip1_changes);
+    			const tooltip2_changes = {};
+
+    			if (dirty & /*$$scope*/ 1) {
+    				tooltip2_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tooltip2.$set(tooltip2_changes);
+    			const tooltip3_changes = {};
+
+    			if (dirty & /*$$scope*/ 1) {
+    				tooltip3_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tooltip3.$set(tooltip3_changes);
+    			const tooltip4_changes = {};
+
+    			if (dirty & /*$$scope*/ 1) {
+    				tooltip4_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tooltip4.$set(tooltip4_changes);
+    			const tooltip5_changes = {};
+
+    			if (dirty & /*$$scope*/ 1) {
+    				tooltip5_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tooltip5.$set(tooltip5_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(copiabletext.$$.fragment, local);
     			transition_in(skill0.$$.fragment, local);
-    			transition_in(tooltip.$$.fragment, local);
+    			transition_in(tooltip0.$$.fragment, local);
+    			transition_in(tooltip1.$$.fragment, local);
     			transition_in(skill1.$$.fragment, local);
+    			transition_in(tooltip2.$$.fragment, local);
+    			transition_in(tooltip3.$$.fragment, local);
+    			transition_in(tooltip4.$$.fragment, local);
     			transition_in(skill2.$$.fragment, local);
+    			transition_in(hoverableskill0.$$.fragment, local);
+    			transition_in(tooltip5.$$.fragment, local);
+    			transition_in(hoverableskill1.$$.fragment, local);
+    			transition_in(hoverableskill2.$$.fragment, local);
     			transition_in(skill3.$$.fragment, local);
     			transition_in(skill4.$$.fragment, local);
     			transition_in(skill5.$$.fragment, local);
     			transition_in(skill6.$$.fragment, local);
-    			transition_in(hoverableskill0.$$.fragment, local);
-    			transition_in(hoverableskill1.$$.fragment, local);
-    			transition_in(hoverableskill2.$$.fragment, local);
     			transition_in(hoverableskill3.$$.fragment, local);
     			transition_in(hoverableskill4.$$.fragment, local);
     			transition_in(hoverableskill5.$$.fragment, local);
     			transition_in(hoverableskill6.$$.fragment, local);
+    			transition_in(hoverableskill7.$$.fragment, local);
+    			transition_in(hoverableskill8.$$.fragment, local);
+    			transition_in(hoverableskill9.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(copiabletext.$$.fragment, local);
     			transition_out(skill0.$$.fragment, local);
-    			transition_out(tooltip.$$.fragment, local);
+    			transition_out(tooltip0.$$.fragment, local);
+    			transition_out(tooltip1.$$.fragment, local);
     			transition_out(skill1.$$.fragment, local);
+    			transition_out(tooltip2.$$.fragment, local);
+    			transition_out(tooltip3.$$.fragment, local);
+    			transition_out(tooltip4.$$.fragment, local);
     			transition_out(skill2.$$.fragment, local);
+    			transition_out(hoverableskill0.$$.fragment, local);
+    			transition_out(tooltip5.$$.fragment, local);
+    			transition_out(hoverableskill1.$$.fragment, local);
+    			transition_out(hoverableskill2.$$.fragment, local);
     			transition_out(skill3.$$.fragment, local);
     			transition_out(skill4.$$.fragment, local);
     			transition_out(skill5.$$.fragment, local);
     			transition_out(skill6.$$.fragment, local);
-    			transition_out(hoverableskill0.$$.fragment, local);
-    			transition_out(hoverableskill1.$$.fragment, local);
-    			transition_out(hoverableskill2.$$.fragment, local);
     			transition_out(hoverableskill3.$$.fragment, local);
     			transition_out(hoverableskill4.$$.fragment, local);
     			transition_out(hoverableskill5.$$.fragment, local);
     			transition_out(hoverableskill6.$$.fragment, local);
+    			transition_out(hoverableskill7.$$.fragment, local);
+    			transition_out(hoverableskill8.$$.fragment, local);
+    			transition_out(hoverableskill9.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div);
     			destroy_component(copiabletext);
     			destroy_component(skill0);
-    			destroy_component(tooltip);
+    			destroy_component(tooltip0);
+    			destroy_component(tooltip1);
     			destroy_component(skill1);
+    			destroy_component(tooltip2);
+    			destroy_component(tooltip3);
+    			destroy_component(tooltip4);
     			destroy_component(skill2);
+    			destroy_component(hoverableskill0);
+    			destroy_component(tooltip5);
+    			destroy_component(hoverableskill1);
+    			destroy_component(hoverableskill2);
     			destroy_component(skill3);
     			destroy_component(skill4);
     			destroy_component(skill5);
     			destroy_component(skill6);
-    			destroy_component(hoverableskill0);
-    			destroy_component(hoverableskill1);
-    			destroy_component(hoverableskill2);
     			destroy_component(hoverableskill3);
     			destroy_component(hoverableskill4);
     			destroy_component(hoverableskill5);
     			destroy_component(hoverableskill6);
+    			destroy_component(hoverableskill7);
+    			destroy_component(hoverableskill8);
+    			destroy_component(hoverableskill9);
     		}
     	};
 
