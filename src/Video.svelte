@@ -46,6 +46,7 @@
     display: block;
   }
   .video {
+    margin: 0 auto;
     width: var(--width);
     max-width: 100%;
     position: relative;

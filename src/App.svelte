@@ -346,9 +346,8 @@
         Numa situacão perfeita, o combo com o maior dano é aquele que maximiza o
         uso da passiva, por exemplo:
       </p>
-      <div style="float: left; margin-right: 1em;">
-        <Video src="resources/combos/Combo.mp4" />
-      </div>
+      <Video src="resources/combos/Combo.mp4" />
+      <br />
       <Combo
         size={48}
         skills={[
@@ -407,7 +406,7 @@
 
   main {
     position: relative;
-    margin: 0 1em;
+    margin: 0 0.5em;
   }
 
   section {

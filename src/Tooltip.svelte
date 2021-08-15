@@ -22,7 +22,7 @@
 
 <style>
   .container {
-    position: relative;
+
   }
   .hoverable {
     border-bottom: 1px dashed white;
