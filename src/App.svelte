@@ -4,6 +4,7 @@
   import HoverableSkill from "./skills/HoverableSkill.svelte";
   import Skill from "./skills/Skill.svelte";
   import Tooltip from "./Tooltip.svelte";
+  import Video from "./Video.svelte";
 </script>
 
 <div class="container">
@@ -79,12 +80,13 @@
         </p>
         <p>
           Se você tiver
-          <Tooltip>
+          <Tooltip width="320">
             <span slot="hoverable">40 CAS ou mais</span>
             <span slot="tooltip">
-              Use o traço branco em baixo da sua barra de mana como referência.
-              <br />
-              <br />
+              <span
+                >Use o traço branco em baixo da sua barra de mana como
+                referência.</span
+              >
               <!-- svelte-ignore a11y-missing-attribute -->
               <img src="resources/habilidades/passiva/barra.png" />
             </span>
@@ -112,21 +114,21 @@
               velocidade de ataque ou durante Alpha/Omega/Wickeline.
             </span>
             <span slot="tooltip">
-              <video autoplay loop muted>
-                <source src="resources/habilidades/passiva/SadDailin.mp4" />
-              </video>
+              <Video
+                src="resources/habilidades/passiva/SadDailin.mp4"
+                autoplay
+              />
               <p><small>Normal</small></p>
-              <video autoplay loop muted>
-                <source src="resources/habilidades/passiva/HappyDailin.mp4" />
-              </video>
+              <Video
+                src="resources/habilidades/passiva/HappyDailin.mp4"
+                autoplay
+              />
               <p><small>Com bêbida</small></p>
             </span>
           </Tooltip>
         </p>
         <aside>
-          <video autoplay loop muted>
-            <source src="resources/habilidades/passiva/ataques.mp4" />
-          </video>
+          <Video src="resources/habilidades/passiva/ataques.mp4" />
           <small>
             <ol>
               <li>Ataque normal</li>
@@ -135,9 +137,7 @@
               <li>Ataque embriagada</li>
             </ol>
           </small>
-          <video autoplay loop muted>
-            <source src="resources/habilidades/passiva/silence.mp4" />
-          </video>
+          <Video src="resources/habilidades/passiva/silence.mp4" />
           <p><small>Embriagada durante Wickeline</small></p>
         </aside>
       </section>
@@ -156,9 +156,7 @@
                 alcoolizada, as duas ativações seguintes também serão
               </span>
               <span slot="tooltip">
-                <video autoplay loop muted>
-                  <source src="resources/habilidades/q/WQTQTQT.mp4" />
-                </video>
+                <Video src="resources/habilidades/q/WQTQTQT.mp4" autoplay />
               </span>
             </Tooltip>
           </li>
@@ -169,9 +167,7 @@
                 jogadores, animais, Wickeline, etc
               </span>
               <span slot="tooltip">
-                <video autoplay loop muted>
-                  <source src="resources/habilidades/q/QQQ.mp4" />
-                </video>
+                <Video src="resources/habilidades/q/QQQ.mp4" autoplay />
               </span>
             </Tooltip>
           </li>
@@ -181,21 +177,15 @@
                 Qualquer atordoamento, empurrão ou enraizamento cancela o dash
               </span>
               <span slot="tooltip">
-                <video autoplay loop muted>
-                  <source src="resources/habilidades/q/QJavas.mp4" />
-                </video>
+                <Video src="resources/habilidades/q/QJavas.mp4" autoplay />
               </span>
             </Tooltip>
           </li>
         </ol>
         <aside>
-          <video autoplay loop muted>
-            <source src="resources/habilidades/q/Q.mp4" />
-          </video>
+          <Video src="resources/habilidades/q/Q.mp4" />
           <p><small>Q normal</small></p>
-          <video autoplay loop muted>
-            <source src="resources/habilidades/q/WQ.mp4" />
-          </video>
+          <Video src="resources/habilidades/q/WQ.mp4" />
           <p><small>Q buffado</small></p>
         </aside>
       </section>
@@ -222,6 +212,7 @@
         </p>
         <p>
           No geral, use <HoverableSkill key="W" /> sempre que seu CAS chegar em <Tooltip
+            width="120"
           >
             <span slot="hoverable">40</span>
             <span slot="tooltip">
@@ -256,13 +247,9 @@
           habilidade por habilidade.
         </p>
         <aside>
-          <video autoplay loop muted>
-            <source src="resources/habilidades/e/EJavas.mp4" />
-          </video>
+          <Video src="resources/habilidades/e/EJavas.mp4" />
           <p><small>Silence no dash do Javali</small></p>
-          <video autoplay loop muted>
-            <source src="resources/habilidades/e/EAlpha.mp4" />
-          </video>
+          <Video src="resources/habilidades/e/EAlpha.mp4" />
           <p><small>Silence no knockback do Alpha</small></p>
         </aside>
       </section>
@@ -289,9 +276,7 @@
                 A Li Dailin fica imparável durante o dash
               </span>
               <span slot="tooltip">
-                <video autoplay loop muted>
-                  <source src="resources/habilidades/r/RAlpha2.mp4" />
-                </video>
+                <Video src="resources/habilidades/r/RAlpha2.mp4" autoplay />
               </span>
             </Tooltip>
           </li>
@@ -301,9 +286,7 @@
                 A Li Dailin não fica imparável durante a supressão
               </span>
               <span slot="tooltip">
-                <video autoplay loop muted>
-                  <source src="resources/habilidades/r/RAlpha1.mp4" />
-                </video>
+                <Video src="resources/habilidades/r/RAlpha1.mp4" autoplay />
               </span>
             </Tooltip>
           </li>
@@ -311,9 +294,7 @@
             <Tooltip>
               <span slot="hoverable"> O hitbox é estranho</span>
               <span slot="tooltip">
-                <video autoplay loop muted>
-                  <source src="resources/habilidades/r/RAlpha3.mp4" />
-                </video>
+                <Video src="resources/habilidades/r/RAlpha3.mp4" autoplay />
               </span>
             </Tooltip>
           </li>
@@ -361,10 +342,13 @@
         dano você pode causar, então não existe um combo certo ou errado, tudo é
         situacional.
       </p>
-      <p>Numa situacão perfeita, o combo com o maior dano é aquele que maximiza o uso da passiva, por exemplo: </p>
-      <video style="float: left; margin-right: 1em;" autoplay loop muted>
-        <source src="resources/combos/Combo.mp4" />
-      </video>
+      <p>
+        Numa situacão perfeita, o combo com o maior dano é aquele que maximiza o
+        uso da passiva, por exemplo:
+      </p>
+      <div style="float: left; margin-right: 1em;">
+        <Video src="resources/combos/Combo.mp4" />
+      </div>
       <Combo
         size={48}
         skills={[
@@ -387,6 +371,25 @@
           "DG",
         ]}
       />
+    </section>
+    <section>
+      <h1>Stats</h1>
+    </section>
+    <section>
+      <h1>Match ups</h1>
+    </section>
+    <section>
+      <h1>Streams</h1>
+      <p>
+        O melhor jeito de aprender Eternal é assistindo, e com Li Dailin não é
+        diferente, segue a lista de streams que eu recomendo:
+      </p>
+      <ul>
+        <li><a href="https://www.twitch.tv/qhrudwkd777">트백</a></li>
+        <li><a href="https://www.twitch.tv/bi9sean55">BigSean</a></li>
+        <li><a href="https://www.twitch.tv/lnerotv">lNeroTV</a></li>
+        <li><a href="https://www.twitch.tv/shuvisenpai">ShuviSenpai</a></li>
+      </ul>
     </section>
   </main>
 </div>
@@ -443,12 +446,13 @@
     font-weight: 100;
   }
 
-  video {
-    max-width: 100%;
-  }
-
   iframe {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .center {
     display: block;
     margin: 0 auto;
   }
@@ -457,13 +461,12 @@
     max-width: 100%;
   }
 
-  .center {
-    display: block;
-    margin: 0 auto;
-  }
-
   li {
     margin-top: 0.5em;
+  }
+
+  a[href] {
+    color: #fccd33;
   }
 
   @media (min-width: 1140px) {

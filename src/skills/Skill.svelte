@@ -18,6 +18,7 @@
     padding: 1em;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.5);
+    min-width: 320px;
   }
 
   .name {
