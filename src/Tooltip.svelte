@@ -21,9 +21,6 @@
 </span>
 
 <style>
-  .container {
-
-  }
   .hoverable {
     border-bottom: 1px dashed white;
   }

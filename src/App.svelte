@@ -123,7 +123,7 @@
                 src="resources/habilidades/passiva/HappyDailin.mp4"
                 autoplay
               />
-              <p><small>Com bêbida</small></p>
+              <p><small>Com bebida</small></p>
             </span>
           </Tooltip>
         </p>
