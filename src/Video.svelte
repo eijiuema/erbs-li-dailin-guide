@@ -8,6 +8,7 @@
   export let height;
 
   let video;
+  let loading = true;
   let paused = !autoplay;
 
   function toggleVideo() {
@@ -24,7 +25,10 @@
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <div class="video" on:click={toggleVideo} style="--width: {width}px">
   <div class="overlay" class:paused>
-    {#if paused}
+    {#if loading}
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <img src="resources/loading.svg" />
+    {:else if paused}
       <span class="text">▶</span>
     {/if}
   </div>
@@ -36,6 +40,7 @@
     {muted}
     {width}
     {height}
+    on:canplay={() => (loading = false)}
     bind:this={video}
   />
 </div>

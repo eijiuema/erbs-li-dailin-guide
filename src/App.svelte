@@ -93,9 +93,9 @@
           </Tooltip> ao usar uma habilidade:
         </p>
         <ol>
-          <li>Você consumirá 40 de CAS (exceto W)</li>
-          <li>A habilidade vai ganhar um efeito adicional</li>
-          <li>Seu próximo ataque normal sairá duas vezes</li>
+          <li>Você consumirá 40 de CAS (exceto W).</li>
+          <li>A habilidade vai ganhar um efeito adicional (exceto W).</li>
+          <li>Seu próximo ataque normal sairá duas vezes.</li>
         </ol>
         <p>
           Obs: o segundo ataque tem dano reduzido, mas aumenta conforme o nível
@@ -158,7 +158,7 @@
               <span slot="tooltip">
                 <Video src="resources/habilidades/q/WQTQTQT.mp4" autoplay />
               </span>
-            </Tooltip>
+            </Tooltip>.
           </li>
           <li>
             <Tooltip>
@@ -169,7 +169,7 @@
               <span slot="tooltip">
                 <Video src="resources/habilidades/q/QQQ.mp4" autoplay />
               </span>
-            </Tooltip>
+            </Tooltip>.
           </li>
           <li>
             <Tooltip>
@@ -179,7 +179,7 @@
               <span slot="tooltip">
                 <Video src="resources/habilidades/q/QJavas.mp4" autoplay />
               </span>
-            </Tooltip>
+            </Tooltip>.
           </li>
         </ol>
         <aside>
@@ -265,10 +265,10 @@
         </p>
         <p>Observações importantes:</p>
         <ol>
-          <li>O dash atravessa paredes</li>
+          <li>O dash atravessa paredes.</li>
           <li>
             O cooldown é bem alto (180/150/115s), mas é reduzido em 40% se
-            acertar um alvo
+            acertar um alvo.
           </li>
           <li>
             <Tooltip>
@@ -278,7 +278,7 @@
               <span slot="tooltip">
                 <Video src="resources/habilidades/r/RAlpha2.mp4" autoplay />
               </span>
-            </Tooltip>
+            </Tooltip>.
           </li>
           <li>
             <Tooltip>
@@ -288,7 +288,7 @@
               <span slot="tooltip">
                 <Video src="resources/habilidades/r/RAlpha1.mp4" autoplay />
               </span>
-            </Tooltip>
+            </Tooltip>.
           </li>
           <li>
             <Tooltip>
@@ -296,7 +296,7 @@
               <span slot="tooltip">
                 <Video src="resources/habilidades/r/RAlpha3.mp4" autoplay />
               </span>
-            </Tooltip>
+            </Tooltip>.
           </li>
         </ol>
       </section>
@@ -370,9 +370,139 @@
           "DG",
         ]}
       />
+      <p>
+        No entanto o seu inimigo não é um boneco de treino. Então na maioria das
+        vezes você vai ser obrigado a desperdiçar uma passiva ou outra, ou vai
+        ter alguma habilidade interrompida.
+      </p>
+      <p>
+        O combo mostrado acima é apenas um exemplo de aproveitamento da passiva,
+        não se limite a ele. Situações diferentes vão exigir combos diferentes e
+        saber se adaptar é absolutamente necessário.
+      </p>
+      <p>
+        Mas não se preocupe, você não vai ter que lutar 10x contra o mesmo
+        personagem pra aprender os combos apropriados, mais pra frente no guia
+        eu vou explicar como agir em cada um dos match ups.
+      </p>
     </section>
     <section>
-      <h1>Stats</h1>
+      <h1><strike>Builds</strike> Stats</h1>
+      <p>
+        Esse guia não vai ter uma seção de builds. Use o buscador de planos
+        dentro do jogo.
+      </p>
+      <q class="question"
+        ><img src="resources/stats/scammed.gif" alt="Emote SCAM" /></q
+      >
+      <small class="author">PROCURANDO BUILD, Novato.</small>
+      <q class="answer"
+        >Calma, eu posso explicar <img
+          style="vertical-align: middle;"
+          src="resources/stats/D.png"
+          alt="Emote D:"
+        /></q
+      >
+      <p>
+        Eu poderia fazer guias separados pra cada uma das builds possíveis de Li
+        Dailin, mas eu tenho bons motivos para não fazer isso:
+      </p>
+      <ul>
+        <li>Li Dailin tem muita build.</li>
+        <li>
+          Eu tenho pouco tempo <strike
+            ><small>(talvez isso seja mentira)</small></strike
+          >.
+        </li>
+      </ul>
+      <p>
+        Mas tendo uma visão geral sobre quais stats devem ser priorizados e como
+        eles afetam o estilo de jogo, você pode pesquisar builds dentro do jogo
+        e decidir por conta própria quais usar.
+      </p>
+      <h2>Stats ofensivos</h2>
+      <ul>
+        <li>
+          Poder de Ataque: aumenta o dano dos ataques básicos e habilidades.
+        </li>
+        <li>
+          Chance/Dano Crítico: é interessante em builds <Tooltip>
+            <span slot="hoverable">glass cannon</span>
+            <span slot="tooltip"
+              >Build que sacrifica defesa pra ter mais dano</span
+            >
+          </Tooltip> e é eficiente contra alvos com pouca defesa.
+        </li>
+        <li>
+          Dano Extra de Ataque Básico: aumenta o dano dos ataques básicos
+          ignorando defesa, é interessante em builds mais tanks, e é eficiente
+          contra alvos com muita defesa.
+        </li>
+      </ul>
+      <h2>Stats defensivos</h2>
+      <ul>
+        <li>
+          Defesa: é bom contra danos que não ignoram armadura <small
+            >(duh)</small
+          >.
+        </li>
+        <li>
+          Vida: é bom contra ENAD, Dano Extra de Habilidade, Armadilhas e Dano
+          Verdadeiro.
+        </li>
+        <li>
+          Roubo de vida + <HoverableSkill key="T" /> =
+          <img
+            style="vertical-align: middle; height: 1.7em;"
+            src="resources/stats/dailinSmile.png"
+            alt="Emote Li Dailin Sorrindo"
+          />.
+        </li>
+      </ul>
+      <p>
+        Obs: o interessante é ter um equilibrio entre Vida e Defesa, por
+        exemplo: +300 de Vida e +40 de defesa
+      </p>
+      <h2>Stats úteis</h2>
+      <ul>
+        <li>
+          Velocidade de movimento: quanto mais velocidade, menos você depende do
+          seu <HoverableSkill key="Q" /> pra se aproximar, e mais você pode aproveitar
+          a passiva.
+        </li>
+        <li>
+          Redução de Tempo de Recarga: menos tempo de recarga, mais skills, mais
+          mobilidade, mais passivas.
+        </li>
+        <li>
+          Visão: Ter mais visão ajuda a abusar da mobilidade e do burst pra
+          fugir ou dar third-party.
+        </li>
+      </ul>
+      <h2>Stats situacionais</h2>
+      <ul>
+        Velocidade de ataque: é interessante ter pelo menos 1.0 de velocidade de
+        ataque. Na Luva não é necessário fazer itens de velocidade de ataque, no
+        Nunchaku 20~30% é suficiente.
+      </ul>
+      <h2>Outros stats</h2>
+      <ul>
+        <li>
+          Dano Extra de Habilidade: Esse stat é interessante em personagens com
+          muitos hits de habilidade, a Li Dailin num combo completo tem só 8
+          hits, então no geral é um stat desnecessário.
+        </li>
+        <li>
+          Alcance de ataque: É um stat interessante e relativamente útil, mas
+          que não vale a pena ir atrás. E no caso do Nunchaku, ele já está
+          presente no Cerberus e é um passivo único.
+        </li>
+      </ul>
+      <q class="question">Tá, mas essa build aqui é boa? 177013</q>
+      <q class="answer"
+        >No geral, se ela prioriza stat ofensivo, faz stat defensivo e um pouco
+        de stat útil, é uma boa build.</q
+      >
     </section>
     <section>
       <h1>Match ups</h1>
@@ -388,12 +518,21 @@
         <li><a href="https://www.twitch.tv/bi9sean55">BigSean</a></li>
         <li><a href="https://www.twitch.tv/lnerotv">lNeroTV</a></li>
         <li><a href="https://www.twitch.tv/shuvisenpai">ShuviSenpai</a></li>
+        <li>
+          <a href="https://www.twitch.tv/uemaaaaa">uemaaaaa</a>
+          <small>(De vez em nunca eu streamo)</small>
+        </li>
       </ul>
     </section>
   </main>
 </div>
 
 <style>
+  :root {
+    --yellow: #fccd33;
+    --green: #49fc33;
+  }
+
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -423,11 +562,11 @@
   }
 
   q.question {
-    color: #fccd33;
+    color: var(--yellow);
   }
 
   q.answer {
-    color: #49fc33;
+    color: var(--green);
   }
 
   .author {
@@ -440,7 +579,7 @@
 
   h1,
   h2 {
-    color: #fccd33;
+    color: var(--yellow);
     text-transform: uppercase;
     font-weight: 100;
   }
@@ -465,7 +604,7 @@
   }
 
   a[href] {
-    color: #fccd33;
+    color: var(--yellow);
   }
 
   @media (min-width: 1140px) {
