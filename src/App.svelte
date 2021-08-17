@@ -5,6 +5,8 @@
   import Skill from "./skills/Skill.svelte";
   import Tooltip from "./Tooltip.svelte";
   import Video from "./Video.svelte";
+  import countapi from "countapi-js";
+  countapi.visits().then((result) => console.log(result.value));
 </script>
 
 <div class="container">
@@ -447,8 +449,8 @@
           >.
         </li>
         <li>
-          Vida: é bom contra Dano Extra de Ataque Básico, Dano Extra de Habilidade, Armadilhas e Dano
-          Verdadeiro.
+          Vida: é bom contra Dano Extra de Ataque Básico, Dano Extra de
+          Habilidade, Armadilhas e Dano Verdadeiro.
         </li>
         <li>
           Roubo de vida + <HoverableSkill key="T" /> =
