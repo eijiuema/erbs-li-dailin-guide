@@ -447,7 +447,7 @@
           >.
         </li>
         <li>
-          Vida: é bom contra ENAD, Dano Extra de Habilidade, Armadilhas e Dano
+          Vida: é bom contra Dano Extra de Ataque Básico, Dano Extra de Habilidade, Armadilhas e Dano
           Verdadeiro.
         </li>
         <li>
