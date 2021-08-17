@@ -100,6 +100,13 @@
           <li>Seu próximo ataque normal sairá duas vezes.</li>
         </ol>
         <p>
+          <b
+            >É muito importante não cancelar o segundo ataque da passiva, ele
+            depende da sua velocidade de ataque e é cancelado por movimentação e
+            uso de habilidades.</b
+          >
+        </p>
+        <p>
           Obs: o segundo ataque tem dano reduzido, mas aumenta conforme o nível
           da passiva.
         </p>
