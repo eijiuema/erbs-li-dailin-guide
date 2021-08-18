@@ -7,7 +7,7 @@
   export let width = "320px";
   export let height = "auto";
   export let caption;
-  export let preload = false;
+  export let preload = true;
 
   let video;
   let loading = true;
