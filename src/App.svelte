@@ -100,6 +100,11 @@
           <li>Seu próximo ataque normal sairá duas vezes.</li>
         </ol>
         <p>
+          Se você atingir 100 de CAS, ficará silenciado por 5s e todos os
+          ataques normais sairão duas vezes, são raros os momentos em que isso é
+          útil. Um exemplo é durante a Wickeline.
+        </p>
+        <p>
           <b
             >É muito importante não cancelar o segundo ataque da passiva, ele
             depende da sua velocidade de ataque e é cancelado por movimentação e
@@ -109,11 +114,6 @@
         <p>
           Obs: o segundo ataque tem dano reduzido, mas aumenta conforme o nível
           da passiva.
-        </p>
-        <p>
-          Se você atingir 100 de CAS, ficará silenciado por 5s e todos os
-          ataques normais sairão duas vezes, são raros os momentos em que isso é
-          útil. Um exemplo é durante a Wickeline.
         </p>
         <p>
           <Tooltip>
