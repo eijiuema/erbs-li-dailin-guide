@@ -16,11 +16,7 @@
 
 <div class="container">
   <h1>"....Do I really have to do this?"</h1>
-  <Figure
-    class="center"
-    height="50vh"
-    src="resources/header/Tourist_Li_Dailin.png"
-  />
+  <Figure height="50vh" src="resources/header/Tourist_Li_Dailin.png" />
   <section>
     <h1>Disclaimer</h1>
     <p>
@@ -126,7 +122,6 @@
       a Wickeline."
         >
           <Video
-            autoplay
             src="resources/habilidades/passiva/silence.mp4"
             caption="Embriagada durante Wickeline"
           />
@@ -167,12 +162,10 @@
           <div class="flex">
             <Video
               src="resources/habilidades/passiva/SadDailin.mp4"
-              autoplay
               caption="Normal"
             />
             <Video
               src="resources/habilidades/passiva/HappyDailin.mp4"
-              autoplay
               caption="Com bebida"
             />
           </div>
@@ -261,6 +254,11 @@
         Esse é o famigerado silence da Li Dailin, a habilidade também dá
         lentidão, mas na maioria das vezes é usada pelo silenciamento.
       </p>
+      <Figure
+        center
+        width="320px"
+        src="resources/habilidades/e/spitDailin.png"
+      />
       <p>
         Pra silenciar é necessário usar a skill buffada, e ela tem um tempo de
         conjuração relativamente alto, então pense bem antes de usa-la pra fugir
@@ -555,6 +553,14 @@
         <small>(De vez em nunca eu streamo)</small>
       </li>
     </ul>
+  </section>
+  <section>
+    <Figure
+      center
+      width="320px"
+      src="resources/praiseDailin.png"
+      caption="Obrigado por ler esse guia até o final, e boa sorte!"
+    />
   </section>
 </div>
 

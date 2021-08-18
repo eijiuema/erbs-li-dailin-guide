@@ -1,7 +1,7 @@
 <script>
   export let src;
   export let controls = false;
-  export let autoplay = false;
+  export let autoplay = true;
   export let muted = true;
   export let loop = true;
   export let width = "320px";
