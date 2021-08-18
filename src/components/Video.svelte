@@ -1,9 +1,7 @@
 <script>
-  import InView from "./InView.svelte";
-
   export let src;
   export let controls = false;
-  export let autoplay = true;
+  export let autoplay = false;
   export let muted = true;
   export let loop = true;
   export let width = "320px";
@@ -37,20 +35,18 @@
         <span class="text">▶</span>
       {/if}
     </div>
-    <InView>
-      <video
-        {src}
-        {controls}
-        {autoplay}
-        {loop}
-        {muted}
-        {width}
-        {height}
-        {preload}
-        on:canplay={() => (loading = false)}
-        bind:this={video}
-      />
-    </InView>
+    <video
+      {src}
+      {controls}
+      {autoplay}
+      {loop}
+      {muted}
+      {width}
+      {height}
+      {preload}
+      on:canplay={() => (loading = false)}
+      bind:this={video}
+    />
   </div>
   {#if caption}
     <figcaption>
