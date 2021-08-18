@@ -519,15 +519,21 @@
         então no geral é um stat desnecessário.
       </li>
       <li>
+        Dano de Habilidade: Apesar de forte, a Li Dailin se beneficia mais de
+        itens de poder de ataque, e pouquissimos itens tem ambos os stats, um
+        exemplo de item bom é Vingança de Goujian.
+      </li>
+      <li>
         Alcance de ataque: É um stat interessante e relativamente útil, mas que
         não vale a pena ir atrás. E no caso do Nunchaku, ele já está presente no
         Cerberus e é um passivo único.
       </li>
     </ul>
-    <Question>Tá, mas essa build aqui é boa?</Question>
+    <Question>Tá, mas como eu sei que uma build é boa?</Question>
     <Answer>
       No geral, se ela prioriza stat ofensivo, faz stat defensivo e um pouco de
-      stat útil, é uma boa build.
+      stat útil, é uma boa build. Stats que não foram citados são pouco
+      relevantes ou irrelevantes.
     </Answer>
   </section>
   <section>
