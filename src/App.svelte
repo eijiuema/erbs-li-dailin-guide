@@ -414,7 +414,7 @@
     </p>
   </section>
   <section>
-    <h1>Stats</h1>
+    <h1><strike>Builds</strike> Stats</h1>
     <p>
       Esse guia não vai ter uma seção de builds. Use o buscador de planos dentro
       do jogo ou procure no canal de texto de builds no discord <a
