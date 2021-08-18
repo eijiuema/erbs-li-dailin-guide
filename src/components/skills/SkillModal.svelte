@@ -1,12 +1,11 @@
 <script>
+  import Modal from "../Modal.svelte";
   import Icon from "./Icon.svelte";
-  import Tooltip from "../Tooltip.svelte";
   import Skill from "./Skill.svelte";
   import * as skills from "./skills.json";
-  import Modal from "../Modal.svelte";
-
+  
   export let id;
-  export let size;
+  export let size = 32;
 
   let skill = skills[id];
 </script>

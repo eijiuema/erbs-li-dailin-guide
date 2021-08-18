@@ -1,6 +1,6 @@
 <script>
   export let src;
-  export let caption;
+  export let caption = "";
   export let height = "auto";
   export let width = "auto";
   export let center = false;

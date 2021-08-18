@@ -1,6 +1,6 @@
 <script>
-  export let color;
-  export let author;
+  export let color = "auto";
+  export let author = "";
 </script>
 
 <blockquote style="color: {color}">
