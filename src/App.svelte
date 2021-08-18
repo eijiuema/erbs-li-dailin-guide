@@ -119,8 +119,18 @@
       <p>
         Se você atingir 100 de CAS, ficará <span class="yellow"
           >silenciado por 5s</span
-        > e todos os ataques normais sairão duas vezes, são raros os momentos em
-        que isso é útil. Um exemplo é durante a Wickeline.
+        >
+        e todos os ataques normais sairão duas vezes, são raros os momentos em
+        que isso é útil. Um exemplo é <TextModal
+          text="durante
+      a Wickeline."
+        >
+          <Video
+            autoplay
+            src="resources/habilidades/passiva/silence.mp4"
+            caption="Embriagada durante Wickeline"
+          />
+        </TextModal>
       </p>
       <div class="flex">
         <Video
@@ -167,21 +177,8 @@
             />
           </div>
         </TextModal>
-        e é muito importante em builds com pouca velocidade de ataque ou
-        <TextModal
-          text="durante
-        Alpha / Omega / Wickeline."
-        >
-          <Video
-            autoplay
-            src="resources/habilidades/passiva/silence.mp4"
-            caption="Embriagada durante Wickeline"
-          />
-        </TextModal>
-        <Tooltip>
-          <span slot="hoverable" />
-          <span slot="tooltip" />
-        </Tooltip>
+        e é muito importante em builds com pouca velocidade de ataque ou durante
+        Alpha / Omega / Wickeline.
       </p>
     </section>
     <section>
