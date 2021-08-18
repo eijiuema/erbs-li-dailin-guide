@@ -3,7 +3,7 @@
   export let controls = false;
   export let autoplay = false;
   export let muted = true;
-  export let loop = true;
+  export let loop = false;
   export let width = "320px";
   export let height = "auto";
   export let caption;
@@ -19,7 +19,6 @@
     } else {
       video.pause();
     }
-    paused = !paused;
   }
 </script>
 
@@ -44,6 +43,7 @@
       {width}
       {height}
       {preload}
+      bind:paused
       on:canplay={() => (loading = false)}
       bind:this={video}
     />
