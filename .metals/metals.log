@@ -28,3 +28,4 @@ INFORMAÇÕES: Unsupported notification method: $/setTrace
 [0m2021.08.17 23:12:41 INFO  time: initialize in 0.43s[0m
 [0m2021.08.17 23:12:41 WARN  Build server is not auto-connectable.[0m
 [0m2021.08.17 23:12:41 WARN  no build tool detected in workspace 'C:\Users\eijiu\Pessoal\li-dailin-guide'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.18 06:20:03 INFO  shutting down Metals[0m
