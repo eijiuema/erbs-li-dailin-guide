@@ -120,8 +120,8 @@
         Se você atingir 100 de CAS, ficará <span class="yellow"
           >silenciado por 5s</span
         >
-        e todos os ataques normais sairão duas vezes, são raros os momentos em
-        que isso é útil. Um exemplo é <TextModal
+        e todos os ataques normais sairão duas vezes, são raros os momentos em que
+        isso é útil. Um exemplo é <TextModal
           text="durante
       a Wickeline."
         >
@@ -414,10 +414,12 @@
     </p>
   </section>
   <section>
-    <h1><strike>Builds</strike> Stats</h1>
+    <h1>Stats</h1>
     <p>
       Esse guia não vai ter uma seção de builds. Use o buscador de planos dentro
-      do jogo.
+      do jogo ou procure no canal de texto de builds no discord <a
+        href="https://discord.gg/K3H5V3h6Xk">Hotel de Lumia</a
+      >.
     </p>
     <Question author="PROCURANDO BUILD, Novato.">
       <img src="resources/stats/scammed.gif" alt="Emote SCAM" />
