@@ -181,7 +181,10 @@
         Li Dailin, cada uso dá um dash, e o terceiro dash pode atravessar
         paredes.
       </p>
-      <p>Existem alguns detalhes importantes sobre essa habilidade:</p>
+      <p>
+        <b>Obs: O tempo de recarga dessa habilidade só começa a contar a partir da última ativação!</b>
+      </p>
+      <p>Outros detalhes importantes sobre essa habilidade:</p>
       <div class="flex">
         <Video
           width="320px"
