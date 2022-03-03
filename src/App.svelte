@@ -549,6 +549,7 @@
     <ul>
       <li><a href="https://www.twitch.tv/qhrudwkd777">트백</a></li>
       <li><a href="https://www.twitch.tv/bi9sean55">BigSean</a></li>
+      <li><a href="https://www.twitch.tv/mikoto430">미사카워스트_</a></li>
       <li><a href="https://www.twitch.tv/lnerotv">lNeroTV</a></li>
       <li><a href="https://www.twitch.tv/shuvisenpai">ShuviSenpai</a></li>
       <li>
