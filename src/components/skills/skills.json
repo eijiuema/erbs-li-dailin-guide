@@ -1,6 +1,6 @@
 {
     "T": {
-        "icon": "https://dak.gg/bser/images/assets/skill/1010100.png",
+        "icon": "resources/skills/T.png",
         "name": "Concentração de Álcool no Sangue (CAS)",
         "description": [
             "Li Dailin pode usar Beber para encher sua barra de CAS. Quando sua CAS está acima de 40, ela fica Bêbada, dando a suas habilidades efeitos extras e ganhando Alcoolizada depois de usar uma habilidade.",
@@ -11,7 +11,7 @@
         "key": "T"
     },
     "Q": {
-        "icon": "https://dak.gg/bser/images/assets/skill/1010200.png",
+        "icon": "resources/skills/Q.png",
         "name": "Chute Vivaz",
         "description": [
             "Li Dailin avança para a frente, causando dano aos inimigos atingidos. Ela pode reativar esta habilidade mais duas vezes.",
@@ -20,7 +20,7 @@
         "key": "Q"
     },
     "W": {
-        "icon": "https://dak.gg/bser/images/assets/skill/1010300.png",
+        "icon": "resources/skills/W.png",
         "name": "Beber",
         "description": [
             "Li Dailin toma um gole, ganhando Força Líquida, aumentando seu CAS, e evitando ataques normais enquanto bebe.",
@@ -29,7 +29,7 @@
         "key": "W"
     },
     "E": {
-        "icon": "https://dak.gg/bser/images/assets/skill/1010400.png",
+        "icon": "resources/skills/E.png",
         "name": "Prateleira Inferior",
         "description": [
             "Li Dailin cospe licor barato em uma área, com formato de cone, na sua frente, causando dano aos inimigos ao seu alcance e aplicando lentidão.",
@@ -38,7 +38,7 @@
         "key": "E"
     },
     "R": {
-        "icon": "https://dak.gg/bser/images/assets/skill/1010500.png",
+        "icon": "resources/skills/R.png",
         "name": "Ataque do Tigre",
         "description": [
             "Li Dailin chuta para frente, não podendo ser impedida, suprimindo o primeiro inimigo atingido e seguindo com mais 2 chutes consecutivos, reduzindo seu tempo de recarga se atingir um inimigo.",
